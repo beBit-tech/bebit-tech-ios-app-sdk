@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Message Handler Example</title>
+        <style>
+            #myButton {
+                width: 480px;
+                height: 270px;
+                font-size: 80px;
+            }
+            body {
+                background-color:LightGray;
+            }
+        </style>
+        <script type="text/javascript">
+            function sendMessage() {
+                window.webkit.messageHandlers["closePopup"].postMessage('1');
+            }
+        </script>
+    </head>
+    <body>
+        <button id="myButton" onclick="sendMessage()">Close Me</button>
+    </body>
+</html>

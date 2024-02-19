@@ -1,0 +1,4 @@
+framework module OmniSegmentKit {
+  header "OmniSegmentKit-Swift.h"
+  requires objc
+}

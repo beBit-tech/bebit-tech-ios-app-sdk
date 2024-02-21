@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-	name: "beBit-Tech",
+	name: "OmniSegmentKit",
 	platforms: [
 		.iOS(.v15)
 	],
 	products: [
-		.library(name: "beBit-Tech", targets: ["OmniSegmentTarget"]),
+		.library(name: "OmniSegmentKit", targets: ["OmniSegmentTarget"]),
 	],
 	dependencies: [
 		.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMinor(from: "5.4.4")),

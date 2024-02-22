@@ -8190,34 +8190,34 @@
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
       "offset": 4582,
-      "length": 5,
-      "value": "\"fcm\""
+      "length": 11,
+      "value": "\"fcm_token\""
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4768,
-      "length": 5,
-      "value": "\"fcm\""
+      "offset": 4774,
+      "length": 11,
+      "value": "\"fcm_token\""
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
-      "offset": 7779,
-      "length": 5,
-      "value": "\"fcm\""
+      "offset": 7791,
+      "length": 11,
+      "value": "\"fcm_token\""
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
-      "offset": 7944,
-      "length": 5,
-      "value": "\"fcm\""
+      "offset": 7962,
+      "length": 11,
+      "value": "\"fcm_token\""
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "IntegerLiteral",
-      "offset": 8096,
+      "offset": 8120,
       "length": 1,
       "value": "1"
     },
@@ -8441,7 +8441,84 @@
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7638,
+      "offset": 7477,
+      "length": 43,
+      "value": "\"Send event to service by webview: \""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 7519,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 7661,
+      "length": 31,
+      "value": "\"send event json string error.\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "Array",
+      "offset": 7833,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 7899,
+      "length": 10,
+      "value": "\"hit_type\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 7934,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8023,
+      "length": 14,
+      "value": "\"event_action\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8228,
+      "length": 60,
+      "value": "\"Required keys are missing or have incorrect types in JSON.\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8358,
+      "length": 55,
+      "value": "\"Failed to cast JSON data to [String: Any] dictionary.\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8472,
+      "length": 51,
+      "value": "\"JSON Parsing Error: \""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8522,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 8729,
       "length": 2,
       "value": "\"\""
     },
@@ -8790,120 +8867,141 @@
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 267,
+      "value": "\"var meta = document.createElement('meta');\nmeta.name = 'viewport';\nmeta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\ndocument.getElementsByTagName('head')[0].appendChild(meta);\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2351,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2420,
+      "offset": 2896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2426,
+      "offset": 2902,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3059,
+      "offset": 3535,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3095,
+      "offset": 3571,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3616,
+      "offset": 4092,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3996,
+      "offset": 4472,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4376,
+      "offset": 4852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4464,
+      "offset": 4940,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4877,
+      "offset": 5353,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5071,
+      "offset": 5547,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5077,
+      "offset": 5553,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5184,
+      "offset": 5660,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5190,
+      "offset": 5666,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5504,
+      "offset": 5980,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5657,
+      "offset": 6133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "StringLiteral",
-      "offset": 5990,
-      "length": 8,
-      "value": "\"resize\""
+      "offset": 6466,
+      "length": 14,
+      "value": "\"resize popup\""
+    },
+    {
+      "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 6606,
+      "length": 3,
+      "value": "0.8"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6184,
+      "offset": 6728,
       "length": 1,
       "value": "2"
     },
@@ -8945,42 +9043,42 @@
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1568,
+      "offset": 1530,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1561,
       "length": 30,
       "value": "\"Send event to server success\""
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1650,
+      "offset": 1612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 1687,
+      "offset": 1649,
       "length": 30,
       "value": "\"Send event to server failed:\""
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 1736,
+      "offset": 1698,
       "length": 14,
       "value": "\"unknow error\""
     },
     {
       "filePath": "\/Users\/lewis\/Developer\/beBit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 1767,
+      "offset": 1729,
       "length": 5,
       "value": "false"
     },

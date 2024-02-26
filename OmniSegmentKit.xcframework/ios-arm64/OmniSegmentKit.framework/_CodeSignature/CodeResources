@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		M9pUOKaB2WIqgopqOtx1+Nl7rxw=
+		1SrqcDmqUuE/zKX32zqIbAPwrCk=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		kS+7/XCM0lbi9ccm36zlEJgmhV0=
+		Jfht5Up9b2aPmWeyMPwIZzCY8LA=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		kS+7/XCM0lbi9ccm36zlEJgmhV0=
+		Jfht5Up9b2aPmWeyMPwIZzCY8LA=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dU/IQNu557HWi4wBC3c6ySgAsFU=
+		t+gL9Vk67cDexoay0WR9RU5Nc0g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,14 +69,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8I3pnz1XJ/6GPuEfir0RZhXXo1Z6gQ5smFu8tOPVfAE=
+			QOUmQS7NFxVr1yI0j4onqbi9ntmWJ5lwzpdmEGBZ8KE=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6Q3p7hGZViXOGMT+kzz+Q2/Fm2hW8oBc2ia+NdRQWY=
+			ABAjZOB/jJc+atXihGz480TyHSBpDDn1Hv3OuAnaJOQ=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6Q3p7hGZViXOGMT+kzz+Q2/Fm2hW8oBc2ia+NdRQWY=
+			ABAjZOB/jJc+atXihGz480TyHSBpDDn1Hv3OuAnaJOQ=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			82+BXjwmRxHwKIWHleHu/0D6wnq5hwuKvxt516rVBAk=
+			APJhRy876vkJ9VBQriwfTV+JmYQgV/5DmIxObzMTznM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

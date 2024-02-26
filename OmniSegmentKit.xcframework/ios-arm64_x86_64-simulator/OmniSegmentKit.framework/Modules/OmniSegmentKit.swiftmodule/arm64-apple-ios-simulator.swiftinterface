@@ -82,6 +82,8 @@ public class OSGRecommendProduct : Swift.Codable {
   public static func setAppName(_ name: Swift.String)
   public static func setBundleVersion(_ version: Swift.String)
   public static func setDeviceId(_ id: Swift.String)
+  public static func setUid(uid: Swift.String)
+  public static func clearUid()
   @objc override dynamic public init()
   @objc deinit
 }

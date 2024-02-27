@@ -84,8 +84,15 @@ public class OSGRecommendProduct : Swift.Codable {
   public static func setDeviceId(_ id: Swift.String)
   public static func setUid(uid: Swift.String)
   public static func clearUid()
+  public static func setWebViewLocation(_ location: Swift.String)
+  public static func resetWebViewLocation()
   @objc override dynamic public init()
   @objc deinit
+}
+extension OmniSegmentKit.OmniSegment {
+  public func changeEventApiEndpoint(_ endpoint: Swift.String)
+  public func changeRecommendApiEndpoint(_ endpoint: Swift.String)
+  public func changeBackgroundServiceURL(_ url: Swift.String)
 }
 public enum OSGEventSource : Swift.String {
   case app, web

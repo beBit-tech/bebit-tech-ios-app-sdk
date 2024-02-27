@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/OmniSegmentKit-Swift.h</key>
 		<data>
-		N6rB5QXhmoXfKxSTWQKfM05k8kw=
+		qbqgqtNX5M1rshE9ps9NwbmFlCs=
 		</data>
 		<key>Headers/app_popup_ios_sdk.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eGgvrsfjYtHDUTX5WlfXCgT1OmA=
+		lopVm4gBxjaKR/5VYzooncLWHQE=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1SrqcDmqUuE/zKX32zqIbAPwrCk=
+		CsOaHno3iSomOw+kcQv+wJoLddM=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iwcyGxLAX4fBvj/ARhkzi0G+Ufg=
+		5XgC59QsLI7sJcMmp/eNxKfj0Ro=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iwcyGxLAX4fBvj/ARhkzi0G+Ufg=
+		5XgC59QsLI7sJcMmp/eNxKfj0Ro=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dSXPGc7Ks4+KV7Ql+AYxJ9q4xw8=
+		oysZOt4i4NseSvJDDKsDH9UINYU=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1SrqcDmqUuE/zKX32zqIbAPwrCk=
+		CsOaHno3iSomOw+kcQv+wJoLddM=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Pv06HgEPIabXC3strR9mMWytWSo=
+		Xv59wYDADsdqkNlz7nI8LrWX7n0=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Pv06HgEPIabXC3strR9mMWytWSo=
+		Xv59wYDADsdqkNlz7nI8LrWX7n0=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		z/VmD+DZlUSPpd84DzMU6JsT2Pc=
+		rlMlEjgX5xtjdFZnu3eizonh2RU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T1rwR1CNTxu16fa1OJSBzgmxTSyomiGB5uZUgUu2oaM=
+			+Wu5ga5f8nyUiQxoTeO7eax3nR9VVM/LjvnW3/EU+Sk=
 			</data>
 		</dict>
 		<key>Headers/app_popup_ios_sdk.h</key>
@@ -89,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QOUmQS7NFxVr1yI0j4onqbi9ntmWJ5lwzpdmEGBZ8KE=
+			dHGD6YQfvubn3PA67TywZ41W0CT6wKxHhXWkf+6T88k=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsIK5ylyGSDwHvNtYQ2LpDAPCfz41FJTpZcKFY53tbY=
+			Qsai0hT17FvkVu4vRPoTu19vHfE7kb3Itv323Ferzyo=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -110,28 +110,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsIK5ylyGSDwHvNtYQ2LpDAPCfz41FJTpZcKFY53tbY=
+			Qsai0hT17FvkVu4vRPoTu19vHfE7kb3Itv323Ferzyo=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/Q394ZumsZp6x57W1Jg7SYGJ7R2n5ptoTQM1h5N0j8=
+			GvLUxuOF/9JxTAQb5YEAwvLQxyS29c7iuil/NjtHKso=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QOUmQS7NFxVr1yI0j4onqbi9ntmWJ5lwzpdmEGBZ8KE=
+			dHGD6YQfvubn3PA67TywZ41W0CT6wKxHhXWkf+6T88k=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			omuItCXXEMQjfsRn+x8myeEZZEl8Ey0KCd4/Zh5Nd9A=
+			MrPTTACvDS29Ab7U13KiCnhkanNlH2zMFsLPC2IuLyU=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -145,14 +145,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			omuItCXXEMQjfsRn+x8myeEZZEl8Ey0KCd4/Zh5Nd9A=
+			MrPTTACvDS29Ab7U13KiCnhkanNlH2zMFsLPC2IuLyU=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rRUZidwmogo4mnEa36sjjv1leu00x18Jhz6UEsRsZJA=
+			pL1FbrhJs74LQsTZMXs1vbeSU3opO8gwGNcCQ0aAhyk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                   = "OmniSegmentKit"
-  spec.version                = "0.0.6"
+  spec.version                = "0.0.7"
   spec.authors                = "Lewis"
   spec.summary                = "beBit-Tech App Popup SDK."
   spec.homepage               = "https://github.com/beBit-tech/bebit-tech-ios-app-sdk"

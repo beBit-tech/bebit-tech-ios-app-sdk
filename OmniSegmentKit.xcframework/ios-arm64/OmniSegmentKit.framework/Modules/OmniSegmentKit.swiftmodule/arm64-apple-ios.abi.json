@@ -3161,6 +3161,46 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "setPopupRedirectCallback",
+            "printedName": "setPopupRedirectCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14OmniSegmentKit0aB0C24setPopupRedirectCallbackyyySScFZ",
+            "mangledName": "$s14OmniSegmentKit0aB0C24setPopupRedirectCallbackyyySScFZ",
+            "moduleName": "OmniSegmentKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -8415,357 +8455,357 @@
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 714,
       "length": 28,
       "value": "\"popupCoordinator.queueLock\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 751,
+      "offset": 825,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 873,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "Array",
-      "offset": 836,
+      "offset": 910,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1544,
+      "offset": 1622,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1550,
+      "offset": 1628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1560,
+      "offset": 1638,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1571,
+      "offset": 1649,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1713,
+      "offset": 1791,
       "length": 33,
       "value": "\"com.alphacore.app-popup-ios-sdk\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1809,
+      "offset": 1887,
       "length": 9,
       "value": "\"example\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1828,
+      "offset": 1906,
       "length": 6,
       "value": "\"html\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2236,
+      "offset": 2314,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 3066,
+      "offset": 3144,
       "length": 154,
       "value": "\"<!doctype html>\n<html>\n    <head>\n        <title><\/title>\n        <script src=\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 3174,
+      "offset": 3252,
       "length": 4,
       "value": "\"\" \/>\n    <\/head>\n    <body><\/body>\n<\/html>\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "FloatLiteral",
-      "offset": 3973,
+      "offset": 4111,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 4531,
+      "offset": 4669,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 4536,
+      "offset": 4674,
       "length": 3,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 4564,
+      "offset": 4702,
       "length": 6,
       "value": "\"', '\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 4574,
+      "offset": 4712,
       "length": 3,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 4598,
+      "offset": 4736,
       "length": 51,
       "value": "\"appPopupInterface.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 4633,
+      "offset": 4771,
       "length": 1,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 4647,
+      "offset": 4785,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 5239,
+      "offset": 5377,
       "length": 39,
       "value": "\"Send event to service error: \""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 5277,
+      "offset": 5415,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 5337,
+      "offset": 5475,
       "length": 45,
       "value": "\"Send event to service success, at: \""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 5381,
+      "offset": 5519,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "FloatLiteral",
-      "offset": 5813,
+      "offset": 5951,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 6298,
+      "offset": 6436,
       "length": 14,
       "value": "\"Close popup.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 481,
       "length": 16,
       "value": "\"OmniSegmentKit.PopupCoordinator\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 6781,
+      "offset": 6919,
       "length": 21,
       "value": "\"Ready to show popup\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 6846,
+      "offset": 6984,
       "length": 20,
       "value": "\"Show popup failed.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7343,
+      "offset": 7481,
       "length": 32,
       "value": "\"Click popup json string error.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7469,
+      "offset": 7607,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7594,
+      "offset": 7732,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 7903,
+      "offset": 8184,
       "length": 13,
       "value": "\"Load popup.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8016,
+      "offset": 8297,
       "length": 43,
       "value": "\"Send event to service by webview: \""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8058,
+      "offset": 8339,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8200,
+      "offset": 8481,
       "length": 31,
       "value": "\"send event json string error.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "Array",
-      "offset": 8372,
+      "offset": 8653,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8438,
+      "offset": 8719,
       "length": 10,
       "value": "\"hit_type\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8473,
+      "offset": 8754,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8562,
+      "offset": 8843,
       "length": 14,
       "value": "\"event_action\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8767,
+      "offset": 9048,
       "length": 60,
       "value": "\"Required keys are missing or have incorrect types in JSON.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8892,
+      "offset": 9173,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 8927,
+      "offset": 9208,
       "length": 19,
       "value": "\"document_location\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "Array",
-      "offset": 9094,
+      "offset": 9375,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9454,
+      "offset": 9735,
       "length": 55,
       "value": "\"Failed to cast JSON data to [String: Any] dictionary.\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9568,
+      "offset": 9849,
       "length": 51,
       "value": "\"JSON Parsing Error: \""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9618,
+      "offset": 9899,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 9782,
+      "offset": 10063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 10244,
+      "offset": 10525,
       "length": 2,
       "value": "\"\""
     },

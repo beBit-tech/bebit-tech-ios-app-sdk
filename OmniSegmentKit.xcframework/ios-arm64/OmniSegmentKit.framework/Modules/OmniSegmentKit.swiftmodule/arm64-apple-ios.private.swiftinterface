@@ -86,6 +86,7 @@ public class OSGRecommendProduct : Swift.Codable {
   public static func clearUid()
   public static func setWebViewLocation(_ location: Swift.String)
   public static func resetWebViewLocation()
+  public static func setPopupRedirectCallback(_ callback: @escaping (Swift.String) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }

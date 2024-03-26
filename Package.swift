@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
 	name: "OmniSegmentKit",
 	platforms: [
-		.iOS(.v15)
+		.iOS(.v12)
 	],
 	products: [
 		.library(name: "OmniSegmentKit", targets: ["OmniSegmentTarget"]),
@@ -26,8 +26,8 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "OmniSegmentKit",
-			url: "https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/0.0.9/OmniSegmentKit.xcframework.zip",
-			checksum: "b188fcd34b72cf47fce5fb5fae7059afdd2e0b955a404a8e817013781853eadc"
+			url: "https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/0.0.10/OmniSegmentKit.xcframework.zip",
+			checksum: "788bb568cb5e0e8fd929d677630343fcc0c7ae9421493f24ac76a07543906bbc"
 		)
 	]
 )

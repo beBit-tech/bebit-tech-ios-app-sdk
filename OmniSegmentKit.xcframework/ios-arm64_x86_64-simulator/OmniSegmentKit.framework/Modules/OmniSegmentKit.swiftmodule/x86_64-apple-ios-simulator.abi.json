@@ -8211,8 +8211,29 @@
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 511,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
-      "offset": 513,
+      "offset": 544,
+      "length": 12,
+      "value": "\"db_version\""
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 31,
+      "value": "\"com.OmniSegment.databaseQueue\""
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
       "length": 13,
       "value": "\"OmniSegment\""
     },
@@ -8233,21 +8254,21 @@
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 393,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 393,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 682,
       "length": 23,
       "value": "\"X-OmniSegment-Api-Key\""
     },

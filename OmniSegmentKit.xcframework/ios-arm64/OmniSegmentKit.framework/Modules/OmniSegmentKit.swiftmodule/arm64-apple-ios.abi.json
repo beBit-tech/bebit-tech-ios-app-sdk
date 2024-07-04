@@ -2345,8 +2345,8 @@
             "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC4fromACs7Decoder_p_tKcfc",
             "moduleName": "OmniSegmentKit",
             "declAttributes": [
-              "AccessControl",
-              "Required"
+              "Required",
+              "AccessControl"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -3247,9 +3247,6 @@
             "usr": "s:14OmniSegmentKit0aB0C22changeEventApiEndpointyySSF",
             "mangledName": "$s14OmniSegmentKit0aB0C22changeEventApiEndpointyySSF",
             "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -3274,9 +3271,6 @@
             "usr": "s:14OmniSegmentKit0aB0C26changeRecommendApiEndpointyySSF",
             "mangledName": "$s14OmniSegmentKit0aB0C26changeRecommendApiEndpointyySSF",
             "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -3301,9 +3295,6 @@
             "usr": "s:14OmniSegmentKit0aB0C26changeBackgroundServiceURLyySSF",
             "mangledName": "$s14OmniSegmentKit0aB0C26changeBackgroundServiceURLyySSF",
             "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -7600,8 +7591,8 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OmniSegmentKit",
         "declAttributes": [
@@ -7610,8 +7601,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "OmniSegmentKit"
       },
@@ -7619,16 +7610,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OmniSegmentKit",
         "declAttributes": [
@@ -7640,23 +7621,8 @@
         "name": "AdSupport",
         "printedName": "AdSupport",
         "declKind": "Import",
-        "moduleName": "OmniSegmentKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit"
-      },
-      {
-        "kind": "Import",
-        "name": "FMDB",
-        "printedName": "FMDB",
-        "declKind": "Import",
         "moduleName": "OmniSegmentKit",
         "declAttributes": [
-          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -7672,15 +7638,22 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
+      },
+      {
+        "kind": "Import",
+        "name": "FMDB",
+        "printedName": "FMDB",
+        "declKind": "Import",
         "moduleName": "OmniSegmentKit",
         "declAttributes": [
-          "RawDocComment"
+          "ImplementationOnly"
         ]
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OmniSegmentKit"
       },
@@ -7688,6 +7661,23 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "OmniSegmentKit"
       },
@@ -7890,385 +7880,385 @@
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGProduct.swift",
       "kind": "Dictionary",
-      "offset": 451,
+      "offset": 413,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 496,
       "length": 21,
       "value": "\"user_item_embedding\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 540,
       "length": 13,
       "value": "\"also_bought\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 603,
+      "offset": 576,
       "length": 13,
       "value": "\"also_viewed\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 496,
       "length": 21,
       "value": "\"user_item_embedding\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 540,
       "length": 13,
       "value": "\"also_bought\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 603,
+      "offset": 576,
       "length": 13,
       "value": "\"also_viewed\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1696,
       "length": 12,
       "value": "\"product_id\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1725,
       "length": 14,
       "value": "\"product_name\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1877,
+      "offset": 1757,
       "length": 15,
       "value": "\"product_price\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 1794,
       "length": 13,
       "value": "\"product_url\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1834,
       "length": 11,
       "value": "\"photo_url\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 1874,
       "length": 22,
       "value": "\"additional_photo_url\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 1921,
       "length": 15,
       "value": "\"special_price\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1696,
       "length": 12,
       "value": "\"product_id\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1725,
       "length": 14,
       "value": "\"product_name\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1877,
+      "offset": 1757,
       "length": 15,
       "value": "\"product_price\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 1794,
       "length": 13,
       "value": "\"product_url\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1834,
       "length": 11,
       "value": "\"photo_url\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 1874,
       "length": 22,
       "value": "\"additional_photo_url\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 1921,
       "length": 15,
       "value": "\"special_price\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 3015,
+      "offset": 2845,
       "length": 6,
       "value": "\"link\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
       "kind": "StringLiteral",
-      "offset": 3015,
+      "offset": 2845,
       "length": 6,
       "value": "\"link\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/OmniSegment.swift",
       "kind": "BooleanLiteral",
-      "offset": 682,
+      "offset": 673,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1312,
+      "offset": 1281,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 1325,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "Dictionary",
-      "offset": 1820,
+      "offset": 1719,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 718,
       "length": 28,
       "value": "\"popupCoordinator.queueLock\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 869,
+      "offset": 825,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 871,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "Array",
-      "offset": 954,
+      "offset": 906,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 493,
       "length": 16,
       "value": "\"OmniSegmentKit.PopupCoordinator\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/OSGLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 165,
+      "offset": 154,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 197,
+      "offset": 184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 229,
+      "offset": 214,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 294,
+      "offset": 275,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 356,
+      "offset": 335,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 418,
+      "offset": 395,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 462,
+      "offset": 439,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 561,
+      "offset": 532,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 692,
+      "offset": 647,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 722,
+      "offset": 677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 933,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 1022,
+      "offset": 941,
       "length": 1,
       "value": "\"-IDFV\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
-      "offset": 1054,
+      "offset": 965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 306,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 511,
+      "offset": 392,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 423,
       "length": 12,
       "value": "\"db_version\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 493,
       "length": 31,
       "value": "\"com.OmniSegment.databaseQueue\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 569,
       "length": 13,
       "value": "\"OmniSegment\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 713,
+      "offset": 668,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 747,
+      "offset": 700,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 372,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 372,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 632,
       "length": 23,
       "value": "\"X-OmniSegment-Api-Key\""
     },
@@ -8296,161 +8286,161 @@
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 150,
       "length": 11,
       "value": "\"showPopup\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 221,
+      "offset": 188,
       "length": 12,
       "value": "\"closePopup\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 271,
+      "offset": 227,
       "length": 12,
       "value": "\"clickPopup\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 267,
       "length": 13,
       "value": "\"resizePopup\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 306,
       "length": 11,
       "value": "\"loadPopup\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 344,
       "length": 22,
       "value": "\"sendOmniSegmentEvent\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 427,
       "length": 6,
       "value": "\"init\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 468,
       "length": 8,
       "value": "\"setUid\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 519,
       "length": 16,
       "value": "\"setCurrentPage\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 573,
       "length": 11,
       "value": "\"sendEvent\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 623,
       "length": 12,
       "value": "\"closePopup\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 676,
       "length": 22,
       "value": "\"startSessionDuration\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 738,
       "length": 21,
       "value": "\"stopSessionDuration\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 978,
+      "offset": 804,
       "length": 18,
       "value": "\"updateScreenSize\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 460,
+      "offset": 425,
       "length": 14,
       "value": "\"outsideColor\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 493,
+      "offset": 454,
       "length": 13,
       "value": "\"template_id\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 460,
+      "offset": 425,
       "length": 14,
       "value": "\"outsideColor\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 493,
+      "offset": 454,
       "length": 13,
       "value": "\"template_id\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 423,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
       "kind": "StringLiteral",
-      "offset": 479,
+      "offset": 452,
       "length": 9,
       "value": "\"PAYLOAD\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 423,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
       "kind": "StringLiteral",
-      "offset": 479,
+      "offset": 452,
       "length": 9,
       "value": "\"PAYLOAD\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
       "kind": "Dictionary",
-      "offset": 726,
+      "offset": 678,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     }

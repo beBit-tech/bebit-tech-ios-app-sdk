@@ -95,6 +95,7 @@ extension OmniSegmentKit.OmniSegment {
   public func changeEventApiEndpoint(_ endpoint: Swift.String)
   public func changeRecommendApiEndpoint(_ endpoint: Swift.String)
   public func changeBackgroundServiceURL(_ url: Swift.String)
+  public func changeApiHost(_ host: Swift.String)
 }
 public enum OSGEventSource : Swift.String {
   case app, web

@@ -3297,6 +3297,30 @@
             "moduleName": "OmniSegmentKit",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeApiHost",
+            "printedName": "changeApiHost(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14OmniSegmentKit0aB0C13changeApiHostyySSF",
+            "mangledName": "$s14OmniSegmentKit0aB0C13changeApiHostyySSF",
+            "moduleName": "OmniSegmentKit",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -7611,10 +7635,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "OmniSegmentKit"
       },
       {
         "kind": "Import",
@@ -7683,6 +7704,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -7700,6 +7735,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
+      },
+      {
+        "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
@@ -7707,6 +7749,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
       },
       {
         "kind": "Import",
@@ -8041,7 +8090,7 @@
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/OmniSegment.swift",
       "kind": "BooleanLiteral",
-      "offset": 673,
+      "offset": 687,
       "length": 4,
       "value": "true"
     },
@@ -8104,7 +8153,7 @@
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/OSGLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 154,
+      "offset": 142,
       "length": 5,
       "value": "false"
     },
@@ -8242,6 +8291,55 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3334,
+      "length": 47,
+      "value": "\"https:\/\/sentry.io\/api\/4507304486436865\/store\/\""
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "Array",
+      "offset": 3425,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "Array",
+      "offset": 3464,
+      "length": 9,
+      "value": "[\"error\"]"
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3504,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "Array",
+      "offset": 3549,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3582,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5020,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
       "offset": 372,
@@ -8282,6 +8380,20 @@
       "offset": 296,
       "length": 77,
       "value": "\"https:\/\/analytics.omniscientai.com\/ai-recommendation\/get-ai-recommendation\/\""
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 36,
+      "value": "\"https:\/\/analytics.omniscientai.com\""
     },
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",

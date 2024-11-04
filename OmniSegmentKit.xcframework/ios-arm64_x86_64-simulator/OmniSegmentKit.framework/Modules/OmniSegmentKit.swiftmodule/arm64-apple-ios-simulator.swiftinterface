@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OmniSegmentKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdSupport
 import Alamofire
 import Combine
@@ -11,55 +12,58 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class OSGProduct {
-  public var price: Swift.Int?
-  public var category: Swift.String?
-  public var brand: Swift.String?
-  public var quantity: Swift.Int?
-  public var variant: Swift.String?
-  public var sku: Swift.String?
-  public var position: Swift.Int?
-  public init(id: Swift.String, name: Swift.String)
-  public func appendAttribute(_ key: Swift.String, value: Any)
-  public func appendAttributes(_ attrs: [Swift.String : Any])
+@objc public class OSGProduct : ObjectiveC.NSObject {
+  @objc public var price: Foundation.NSNumber?
+  @objc public var category: Swift.String?
+  @objc public var brand: Swift.String?
+  @objc public var quantity: Foundation.NSNumber?
+  @objc public var variant: Swift.String?
+  @objc public var sku: Swift.String?
+  @objc public var position: Foundation.NSNumber?
+  @objc public init(id: Swift.String, name: Swift.String)
+  @objc public func appendAttribute(_ key: Swift.String, value: Any)
+  @objc public func appendAttributes(_ attrs: [Swift.String : Any])
   @objc deinit
 }
-public class OSGRecommendRequest : Swift.Codable {
-  public var productIds: [Swift.String]?
-  public var productTags: [Swift.String]?
-  public var productCategories: [Swift.String]?
-  public var excludedProductIds: [Swift.String]?
-  public var excludedProductTags: [Swift.String]?
-  public enum `Type` : Swift.String, Swift.Codable {
-    case userItemEmbedding
-    case alsoBought
-    case alsoViewed
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
+@objc public class OSGRecommendRequest : ObjectiveC.NSObject {
+  @objc public var productIds: [Swift.String]?
+  @objc public var productTags: [Swift.String]?
+  @objc public var productCategories: [Swift.String]?
+  @objc public var excludedProductIds: [Swift.String]?
+  @objc public var excludedProductTags: [Swift.String]?
+  @objc public enum RecommendType : Swift.Int {
+    case userItemEmbedding = 0
+    case alsoBought = 1
+    case alsoViewed = 2
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
       get
     }
   }
-  public init(_ type: OmniSegmentKit.OSGRecommendRequest.`Type`, quantity: Swift.Int)
+  @objc public static func stringValue(for type: OmniSegmentKit.OSGRecommendRequest.RecommendType) -> Swift.String
+  @objc public init(_ type: OmniSegmentKit.OSGRecommendRequest.RecommendType, quantity: Swift.Int)
+  @objc public func toURLParameters() -> [Swift.String : Any]
+  @objc deinit
+}
+@objc public class OSGRecommendProduct : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let id: Swift.String
+  @objc final public let name: Swift.String
+  @objc final public let price: Swift.String
+  @objc final public let urlString: Swift.String
+  @objc final public let imageURLString: Swift.String
+  @objc final public let additionalImages: [OmniSegmentKit.OSGAdditionalImage]
+  @objc final public let specialPrice: Swift.String?
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc public func encode() -> [Swift.String : Any]
+  @objc public init(id: Swift.String, name: Swift.String, price: Swift.String, urlString: Swift.String, imageURLString: Swift.String, additionalImages: [OmniSegmentKit.OSGAdditionalImage], specialPrice: Swift.String?)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
-public class OSGRecommendProduct : Swift.Codable {
-  final public let id: Swift.String
-  final public let name: Swift.String
-  final public let price: Swift.String
-  final public let urlString: Swift.String
-  final public let imageURLString: Swift.String
-  final public let additionalImages: [OmniSegmentKit.OSGAdditionalImage]
-  final public let specialPrice: Swift.String?
-  required public init(from decoder: any Swift.Decoder) throws
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@_hasMissingDesignatedInitializers public class OSGAdditionalImage : Swift.Codable {
-  final public let name: Swift.String
-  final public let urlString: Swift.String
+@objc public class OSGAdditionalImage : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let name: Swift.String
+  @objc final public let urlString: Swift.String
+  @objc public init(name: Swift.String, urlString: Swift.String)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -68,34 +72,32 @@ public class OSGRecommendProduct : Swift.Codable {
 @objc public class OmniSegment : ObjectiveC.NSObject {
   @objc(initialize:withTid:) public static func initialize(_ key: Swift.String, tid: Swift.String)
   @objc public static func enableDebugLogs(_ enable: Swift.Bool = true)
-  public static func login(uid: Swift.String)
-  public static func logout()
-  public static func setFCMToken(_ token: Swift.String)
-  public static func setCurrentPage(_ pageId: Swift.String)
-  public static func trackEvent(_ event: OmniSegmentKit.OSGEvent)
-  #if compiler(>=5.3) && $AsyncAwait
+  @objc public static func login(uid: Swift.String)
+  @objc public static func logout()
+  @objc public static func setFCMToken(_ token: Swift.String)
+  @objc public static func setCurrentPage(_ pageId: Swift.String)
+  @objc public static func trackEvent(_ event: OmniSegmentKit.OSGEvent)
   public static func fetchRecommendProduct(_ request: OmniSegmentKit.OSGRecommendRequest) async -> [OmniSegmentKit.OSGRecommendProduct]
-  #endif
   public static func fetchRecommendProduct(_ request: OmniSegmentKit.OSGRecommendRequest) -> Combine.Future<[OmniSegmentKit.OSGRecommendProduct], Swift.Never>
   public static func fetchRecommendProduct(_ request: OmniSegmentKit.OSGRecommendRequest, completion: @escaping ([OmniSegmentKit.OSGRecommendProduct]) -> Swift.Void)
-  public static func setBundleId(_ id: Swift.String)
-  public static func setAppName(_ name: Swift.String)
-  public static func setBundleVersion(_ version: Swift.String)
-  public static func setDeviceId(_ id: Swift.String)
-  public static func setUid(uid: Swift.String)
-  public static func clearUid()
-  public static func setWebViewLocation(_ location: Swift.String)
-  public static func resetWebViewLocation()
-  public static func setPopupRedirectCallback(_ callback: @escaping (Swift.String) -> Swift.Void)
+  @objc public static func setBundleId(_ id: Swift.String)
+  @objc public static func setAppName(_ name: Swift.String)
+  @objc public static func setBundleVersion(_ version: Swift.String)
+  @objc public static func setDeviceId(_ id: Swift.String)
+  @objc public static func setUid(uid: Swift.String)
+  @objc public static func clearUid()
+  @objc public static func setWebViewLocation(_ location: Swift.String)
+  @objc public static func resetWebViewLocation()
+  @objc public static func setPopupRedirectCallback(_ callback: @escaping (Swift.String) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
 @available(iOS 13, *)
 extension OmniSegmentKit.OmniSegment {
-  public func changeEventApiEndpoint(_ endpoint: Swift.String)
-  public func changeRecommendApiEndpoint(_ endpoint: Swift.String)
-  public func changeBackgroundServiceURL(_ url: Swift.String)
-  public func changeApiHost(_ host: Swift.String)
+  @objc dynamic public func changeEventApiEndpoint(_ endpoint: Swift.String)
+  @objc dynamic public func changeRecommendApiEndpoint(_ endpoint: Swift.String)
+  @objc dynamic public func changeBackgroundServiceURL(_ url: Swift.String)
+  @objc dynamic public func changeApiHost(_ host: Swift.String)
 }
 public enum OSGEventSource : Swift.String {
   case app, web
@@ -133,28 +135,28 @@ public enum OSGEventCategory : Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class OSGEvent {
+@_hasMissingDesignatedInitializers @objc public class OSGEvent : ObjectiveC.NSObject {
   public typealias Source = OmniSegmentKit.OSGEventSource
   public typealias HitType = OmniSegmentKit.OSGEventHitType
   public typealias Action = OmniSegmentKit.OSGEventAction
   public typealias Category = OmniSegmentKit.OSGEventCategory
-  public var userId: Swift.String?
-  public var deviceId: Swift.String
-  public var bundleId: Swift.String
-  public var bundleVersion: Swift.String
-  public var appName: Swift.String
+  @objc public var userId: Swift.String?
+  @objc public var deviceId: Swift.String
+  @objc public var bundleId: Swift.String
+  @objc public var bundleVersion: Swift.String
+  @objc public var appName: Swift.String
   public var source: OmniSegmentKit.OSGEvent.Source
-  public var location: Swift.String?
-  public var locationTitle: Swift.String?
-  public var products: [OmniSegmentKit.OSGProduct]?
-  public var currencyCode: Swift.String?
-  public var transactionId: Swift.String?
-  public var transactionRevenue: Swift.Int?
-  public var transactionTax: Swift.String?
-  public var transactionShipping: Swift.String?
-  public var transactionCouponCode: Swift.String?
-  public var label: [Swift.String : Any]?
-  public var value: Swift.String?
+  @objc public var location: Swift.String?
+  @objc public var locationTitle: Swift.String?
+  @objc public var products: [OmniSegmentKit.OSGProduct]?
+  @objc public var currencyCode: Swift.String?
+  @objc public var transactionId: Swift.String?
+  @objc public var transactionRevenue: Foundation.NSNumber?
+  @objc public var transactionTax: Swift.String?
+  @objc public var transactionShipping: Swift.String?
+  @objc public var transactionCouponCode: Swift.String?
+  @objc public var label: [Swift.String : Any]?
+  @objc public var value: Swift.String?
   public init(from data: [Swift.String : Any])
   public func appendAttribute(_ key: Swift.String, value: Any)
   public func appendAttributes(_ attrs: [Swift.String : Any])
@@ -163,27 +165,27 @@ public enum OSGEventCategory : Swift.String {
   @objc deinit
 }
 extension OmniSegmentKit.OSGEvent {
-  public static func appOpen() -> OmniSegmentKit.OSGEvent
-  public static func appUnsubscribe() -> OmniSegmentKit.OSGEvent
-  public static func productImpression(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func productClicked(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func addToWishlist(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func addToCart(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func removeFromCart(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func checkout(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func purchase(_ transactionId: Swift.String, revenue: Swift.Int, products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func refund(_ transactionId: Swift.String, revenue: Swift.Int, products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
-  public static func completeRegistration(label: [Swift.String : Any]) -> OmniSegmentKit.OSGEvent
-  public static func search(label: [Swift.String : Any]) -> OmniSegmentKit.OSGEvent
-  public static func custom(action: Swift.String, value: Swift.String? = nil) -> OmniSegmentKit.OSGEvent
+  @objc public static func appOpen() -> OmniSegmentKit.OSGEvent
+  @objc public static func appUnsubscribe() -> OmniSegmentKit.OSGEvent
+  @objc public static func productImpression(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc public static func productClicked(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc public static func addToWishlist(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc public static func addToCart(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc public static func removeFromCart(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc public static func checkout(_ products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc(purchaseWithTransactionId:revenue:products:) public static func purchase(_ transactionId: Swift.String, revenue: Foundation.NSNumber, products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc(refundWithTransactionId:revenue:products:) public static func refund(_ transactionId: Swift.String, revenue: Foundation.NSNumber, products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
+  @objc public static func completeRegistration(label: [Swift.String : Any]) -> OmniSegmentKit.OSGEvent
+  @objc public static func search(label: [Swift.String : Any]) -> OmniSegmentKit.OSGEvent
+  @objc(customWithAction:value:) public static func custom(action: Swift.String, value: Swift.String? = nil) -> OmniSegmentKit.OSGEvent
 }
 @available(iOS 13, *)
-extension WebKit.WKWebViewConfiguration {
-  public func addOmniSegmentContentController()
+@objc extension WebKit.WKWebViewConfiguration {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func addOmniSegmentContentController()
 }
-extension OmniSegmentKit.OSGRecommendRequest.`Type` : Swift.Equatable {}
-extension OmniSegmentKit.OSGRecommendRequest.`Type` : Swift.Hashable {}
-extension OmniSegmentKit.OSGRecommendRequest.`Type` : Swift.RawRepresentable {}
+extension OmniSegmentKit.OSGRecommendRequest.RecommendType : Swift.Equatable {}
+extension OmniSegmentKit.OSGRecommendRequest.RecommendType : Swift.Hashable {}
+extension OmniSegmentKit.OSGRecommendRequest.RecommendType : Swift.RawRepresentable {}
 extension OmniSegmentKit.OSGEventSource : Swift.Equatable {}
 extension OmniSegmentKit.OSGEventSource : Swift.Hashable {}
 extension OmniSegmentKit.OSGEventSource : Swift.RawRepresentable {}

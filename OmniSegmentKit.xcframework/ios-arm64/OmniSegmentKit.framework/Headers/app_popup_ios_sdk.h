@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <WebKit/WebKit.h>
 
 //! Project version number for app_popup_ios_sdk.
 FOUNDATION_EXPORT double app_popup_ios_sdkVersionNumber;
@@ -13,6 +14,10 @@ FOUNDATION_EXPORT double app_popup_ios_sdkVersionNumber;
 //! Project version string for app_popup_ios_sdk.
 FOUNDATION_EXPORT const unsigned char app_popup_ios_sdkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <app_popup_ios_sdk/PublicHeader.h>
+NS_ASSUME_NONNULL_BEGIN
 
+@interface WKWebViewConfiguration (OmniSegment)
+- (void)addOmniSegmentContentController API_AVAILABLE(ios(13.0));
+@end
 
+NS_ASSUME_NONNULL_END

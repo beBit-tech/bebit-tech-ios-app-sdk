@@ -1052,2186 +1052,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OSGRecommendRequest",
-        "printedName": "OSGRecommendRequest",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "productIds",
-            "printedName": "productIds",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(py)productIds",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC10productIdsSaySSGSgvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)productIds",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC10productIdsSaySSGSgvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)setProductIds:",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC10productIdsSaySSGSgvs",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC10productIdsSaySSGSgvM",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC10productIdsSaySSGSgvM",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "productTags",
-            "printedName": "productTags",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(py)productTags",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC11productTagsSaySSGSgvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)productTags",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC11productTagsSaySSGSgvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)setProductTags:",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC11productTagsSaySSGSgvs",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC11productTagsSaySSGSgvM",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC11productTagsSaySSGSgvM",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "productCategories",
-            "printedName": "productCategories",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(py)productCategories",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC17productCategoriesSaySSGSgvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)productCategories",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC17productCategoriesSaySSGSgvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)setProductCategories:",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC17productCategoriesSaySSGSgvs",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC17productCategoriesSaySSGSgvM",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC17productCategoriesSaySSGSgvM",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "excludedProductIds",
-            "printedName": "excludedProductIds",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(py)excludedProductIds",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC18excludedProductIdsSaySSGSgvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)excludedProductIds",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC18excludedProductIdsSaySSGSgvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)setExcludedProductIds:",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC18excludedProductIdsSaySSGSgvs",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC18excludedProductIdsSaySSGSgvM",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC18excludedProductIdsSaySSGSgvM",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "excludedProductTags",
-            "printedName": "excludedProductTags",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(py)excludedProductTags",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC19excludedProductTagsSaySSGSgvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)excludedProductTags",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC19excludedProductTagsSaySSGSgvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)setExcludedProductTags:",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC19excludedProductTagsSaySSGSgvs",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC19excludedProductTagsSaySSGSgvM",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC19excludedProductTagsSaySSGSgvM",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "RecommendType",
-            "printedName": "RecommendType",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "userItemEmbedding",
-                "printedName": "userItemEmbedding",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(OmniSegmentKit.OSGRecommendRequest.RecommendType.Type) -> OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RecommendType",
-                        "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                        "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RecommendType",
-                            "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                            "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO17userItemEmbeddingyA2EmF",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO17userItemEmbeddingyA2EmF",
-                "moduleName": "OmniSegmentKit",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "fixedbinaryorder": 0
-              },
-              {
-                "kind": "Var",
-                "name": "alsoBought",
-                "printedName": "alsoBought",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(OmniSegmentKit.OSGRecommendRequest.RecommendType.Type) -> OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RecommendType",
-                        "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                        "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RecommendType",
-                            "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                            "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO10alsoBoughtyA2EmF",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO10alsoBoughtyA2EmF",
-                "moduleName": "OmniSegmentKit",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "fixedbinaryorder": 1
-              },
-              {
-                "kind": "Var",
-                "name": "alsoViewed",
-                "printedName": "alsoViewed",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(OmniSegmentKit.OSGRecommendRequest.RecommendType.Type) -> OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RecommendType",
-                        "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                        "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RecommendType",
-                            "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                            "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO10alsoViewedyA2EmF",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO10alsoViewedyA2EmF",
-                "moduleName": "OmniSegmentKit",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "fixedbinaryorder": 2
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RecommendType",
-                        "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                        "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO8rawValueAESgSi_tcfc",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO8rawValueAESgSi_tcfc",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO8rawValueSivp",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO8rawValueSivp",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO8rawValueSivg",
-                    "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO8rawValueSivg",
-                    "moduleName": "OmniSegmentKit",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "enumRawTypeName": "Int",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "stringValue",
-            "printedName": "stringValue(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "RecommendType",
-                "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(cm)stringValueFor:",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC11stringValue3forSSAC13RecommendTypeO_tFZ",
-            "moduleName": "OmniSegmentKit",
-            "static": true,
-            "objc_name": "stringValueFor:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:quantity:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendRequest",
-                "printedName": "OmniSegmentKit.OSGRecommendRequest",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "RecommendType",
-                "printedName": "OmniSegmentKit.OSGRecommendRequest.RecommendType",
-                "usr": "s:14OmniSegmentKit19OSGRecommendRequestC13RecommendTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)init:quantity:",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC_8quantityA2C13RecommendTypeO_Sitcfc",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "toURLParameters",
-            "printedName": "toURLParameters()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)toURLParameters",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC15toURLParametersSDySSypGyF",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendRequest",
-                "printedName": "OmniSegmentKit.OSGRecommendRequest",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest(im)init",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestCACycfc",
-            "moduleName": "OmniSegmentKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest",
-        "mangledName": "$s14OmniSegmentKit19OSGRecommendRequestC",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OSGRecommendProduct",
-        "printedName": "OSGRecommendProduct",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(py)id",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC2idSSvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)id",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC2idSSvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(py)name",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC4nameSSvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)name",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC4nameSSvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "price",
-            "printedName": "price",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(py)price",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC5priceSSvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)price",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC5priceSSvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "urlString",
-            "printedName": "urlString",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(py)urlString",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC9urlStringSSvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)urlString",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC9urlStringSSvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "imageURLString",
-            "printedName": "imageURLString",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(py)imageURLString",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC14imageURLStringSSvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)imageURLString",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC14imageURLStringSSvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "additionalImages",
-            "printedName": "additionalImages",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[OmniSegmentKit.OSGAdditionalImage]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OSGAdditionalImage",
-                    "printedName": "OmniSegmentKit.OSGAdditionalImage",
-                    "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(py)additionalImages",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC16additionalImagesSayAA18OSGAdditionalImageCGvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[OmniSegmentKit.OSGAdditionalImage]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OSGAdditionalImage",
-                        "printedName": "OmniSegmentKit.OSGAdditionalImage",
-                        "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)additionalImages",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC16additionalImagesSayAA18OSGAdditionalImageCGvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "specialPrice",
-            "printedName": "specialPrice",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(py)specialPrice",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC12specialPriceSSSgvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)specialPrice",
-                "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC12specialPriceSSSgvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendProduct",
-                "printedName": "OmniSegmentKit.OSGRecommendProduct",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14OmniSegmentKit19OSGRecommendProductC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)encode",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC6encodeSDySSypGyF",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(id:name:price:urlString:imageURLString:additionalImages:specialPrice:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendProduct",
-                "printedName": "OmniSegmentKit.OSGRecommendProduct",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[OmniSegmentKit.OSGAdditionalImage]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OSGAdditionalImage",
-                    "printedName": "OmniSegmentKit.OSGAdditionalImage",
-                    "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)initWithId:name:price:urlString:imageURLString:additionalImages:specialPrice:",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC2id4name5price9urlString14imageURLString16additionalImages12specialPriceACSS_S4SSayAA18OSGAdditionalImageCGSSSgtcfc",
-            "moduleName": "OmniSegmentKit",
-            "objc_name": "initWithId:name:price:urlString:imageURLString:additionalImages:specialPrice:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendProduct",
-                "printedName": "OmniSegmentKit.OSGRecommendProduct",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct(im)init",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductCACycfc",
-            "moduleName": "OmniSegmentKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14OmniSegmentKit19OSGRecommendProductC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC6encode2toys7Encoder_p_tKF",
-            "moduleName": "OmniSegmentKit",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct",
-        "mangledName": "$s14OmniSegmentKit19OSGRecommendProductC",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OSGAdditionalImage",
-        "printedName": "OSGAdditionalImage",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage(py)name",
-            "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC4nameSSvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage(im)name",
-                "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC4nameSSvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "urlString",
-            "printedName": "urlString",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage(py)urlString",
-            "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC9urlStringSSvp",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage(im)urlString",
-                "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC9urlStringSSvg",
-                "moduleName": "OmniSegmentKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:urlString:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGAdditionalImage",
-                "printedName": "OmniSegmentKit.OSGAdditionalImage",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage(im)initWithName:urlString:",
-            "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC4name9urlStringACSS_SStcfc",
-            "moduleName": "OmniSegmentKit",
-            "objc_name": "initWithName:urlString:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGAdditionalImage",
-                "printedName": "OmniSegmentKit.OSGAdditionalImage",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage(im)init",
-            "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageCACycfc",
-            "moduleName": "OmniSegmentKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OSGAdditionalImage",
-                "printedName": "OmniSegmentKit.OSGAdditionalImage",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14OmniSegmentKit18OSGAdditionalImageC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "OmniSegmentKit",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14OmniSegmentKit18OSGAdditionalImageC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC6encode2toys7Encoder_p_tKF",
-            "moduleName": "OmniSegmentKit",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@OmniSegmentKit@objc(cs)OSGAdditionalImage",
-        "mangledName": "$s14OmniSegmentKit18OSGAdditionalImageC",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -3455,148 +1275,6 @@
               "Final",
               "AccessControl",
               "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "fetchRecommendProduct",
-            "printedName": "fetchRecommendProduct(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[OmniSegmentKit.OSGRecommendProduct]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OSGRecommendProduct",
-                    "printedName": "OmniSegmentKit.OSGRecommendProduct",
-                    "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendRequest",
-                "printedName": "OmniSegmentKit.OSGRecommendRequest",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14OmniSegmentKit0aB0C21fetchRecommendProductySayAA012OSGRecommendF0CGAA0G7RequestCYaFZ",
-            "mangledName": "$s14OmniSegmentKit0aB0C21fetchRecommendProductySayAA012OSGRecommendF0CGAA0G7RequestCYaFZ",
-            "moduleName": "OmniSegmentKit",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "fetchRecommendProduct",
-            "printedName": "fetchRecommendProduct(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Future",
-                "printedName": "Combine.Future<[OmniSegmentKit.OSGRecommendProduct], Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[OmniSegmentKit.OSGRecommendProduct]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OSGRecommendProduct",
-                        "printedName": "OmniSegmentKit.OSGRecommendProduct",
-                        "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine6FutureC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendRequest",
-                "printedName": "OmniSegmentKit.OSGRecommendRequest",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14OmniSegmentKit0aB0C21fetchRecommendProducty7Combine6FutureCySayAA012OSGRecommendF0CGs5NeverOGAA0I7RequestCFZ",
-            "mangledName": "$s14OmniSegmentKit0aB0C21fetchRecommendProducty7Combine6FutureCySayAA012OSGRecommendF0CGs5NeverOGAA0I7RequestCFZ",
-            "moduleName": "OmniSegmentKit",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "fetchRecommendProduct",
-            "printedName": "fetchRecommendProduct(_:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OSGRecommendRequest",
-                "printedName": "OmniSegmentKit.OSGRecommendRequest",
-                "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendRequest"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([OmniSegmentKit.OSGRecommendProduct]) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[OmniSegmentKit.OSGRecommendProduct]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OSGRecommendProduct",
-                        "printedName": "OmniSegmentKit.OSGRecommendProduct",
-                        "usr": "c:@M@OmniSegmentKit@objc(cs)OSGRecommendProduct"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14OmniSegmentKit0aB0C21fetchRecommendProduct_10completionyAA19OSGRecommendRequestC_ySayAA0hF0CGctFZ",
-            "mangledName": "$s14OmniSegmentKit0aB0C21fetchRecommendProduct_10completionyAA19OSGRecommendRequestC_ySayAA0hF0CGctFZ",
-            "moduleName": "OmniSegmentKit",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3908,34 +1586,6 @@
             "declKind": "Func",
             "usr": "c:@CM@OmniSegmentKit@objc(cs)OmniSegment(im)changeEventApiEndpoint:",
             "mangledName": "$s14OmniSegmentKit0aB0C22changeEventApiEndpointyySSF",
-            "moduleName": "OmniSegmentKit",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "changeRecommendApiEndpoint",
-            "printedName": "changeRecommendApiEndpoint(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@OmniSegmentKit@objc(cs)OmniSegment(im)changeRecommendApiEndpoint:",
-            "mangledName": "$s14OmniSegmentKit0aB0C26changeRecommendApiEndpointyySSF",
             "moduleName": "OmniSegmentKit",
             "declAttributes": [
               "Dynamic",
@@ -8729,23 +6379,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8822,23 +6455,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit"
       },
       {
         "kind": "TypeDecl",
@@ -8960,557 +6576,459 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGProduct.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGProduct.swift",
       "kind": "Dictionary",
       "offset": 486,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "IntegerLiteral",
-      "offset": 535,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "IntegerLiteral",
-      "offset": 559,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "IntegerLiteral",
-      "offset": 583,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 2078,
-      "length": 12,
-      "value": "\"product_id\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 2107,
-      "length": 14,
-      "value": "\"product_name\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 2139,
-      "length": 15,
-      "value": "\"product_price\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 2176,
-      "length": 13,
-      "value": "\"product_url\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 2216,
-      "length": 11,
-      "value": "\"photo_url\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 2256,
-      "length": 22,
-      "value": "\"additional_photo_url\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 2303,
-      "length": 15,
-      "value": "\"special_price\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGRecommend.swift",
-      "kind": "StringLiteral",
-      "offset": 4096,
-      "length": 6,
-      "value": "\"link\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/OmniSegment.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/OmniSegment.swift",
       "kind": "BooleanLiteral",
       "offset": 687,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
       "offset": 1365,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "Dictionary",
       "offset": 1759,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 719,
       "length": 28,
       "value": "\"popupCoordinator.queueLock\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 826,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 872,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "Array",
       "offset": 907,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 951,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 994,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
       "offset": 1039,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/OSGLog.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/OSGLog.swift",
       "kind": "BooleanLiteral",
       "offset": 142,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 567,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 712,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 1115,
       "length": 14,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 1123,
       "length": 1,
       "value": "\"-IDFV\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/ClientData.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "IntegerLiteral",
       "offset": 392,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
       "offset": 423,
       "length": 12,
       "value": "\"db_version\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 31,
       "value": "\"com.OmniSegment.databaseQueue\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/EventManager.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 13,
       "value": "\"OmniSegment\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
       "offset": 708,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupManager.swift",
       "kind": "IntegerLiteral",
       "offset": 740,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "StringLiteral",
       "offset": 3334,
       "length": 47,
       "value": "\"https:\/\/sentry.io\/api\/4507304486436865\/store\/\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "Array",
       "offset": 3425,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "Array",
       "offset": 3464,
       "length": 9,
       "value": "[\"error\"]"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "IntegerLiteral",
       "offset": 3504,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "Array",
       "offset": 3549,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "BooleanLiteral",
       "offset": 3582,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "IntegerLiteral",
       "offset": 5020,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
       "offset": 632,
       "length": 23,
       "value": "\"X-OmniSegment-Api-Key\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 46,
       "value": "\"https:\/\/omnitag.omniscientai.com\/appPopup.js\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 56,
       "value": "\"https:\/\/api.omnisegment.com\/api\/v1\/beacon\/track-event\/\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 77,
       "value": "\"https:\/\/analytics.omniscientai.com\/ai-recommendation\/get-ai-recommendation\/\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 36,
       "value": "\"https:\/\/analytics.omniscientai.com\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 11,
       "value": "\"showPopup\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 12,
       "value": "\"closePopup\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 12,
       "value": "\"clickPopup\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 13,
       "value": "\"resizePopup\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 11,
       "value": "\"loadPopup\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 22,
       "value": "\"sendOmniSegmentEvent\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 15,
       "value": "\"loadPopupSize\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 6,
       "value": "\"init\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 513,
       "length": 8,
       "value": "\"setUid\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 564,
       "length": 16,
       "value": "\"setCurrentPage\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 618,
       "length": 11,
       "value": "\"sendEvent\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 668,
       "length": 12,
       "value": "\"closePopup\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 22,
       "value": "\"startSessionDuration\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 783,
       "length": 21,
       "value": "\"stopSessionDuration\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 18,
       "value": "\"updateScreenSize\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 20,
       "value": "\"calculatePopupSize\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 14,
       "value": "\"outsideColor\""
     },
     {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/PopupConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 497,
       "length": 13,
       "value": "\"template_id\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
-      "kind": "StringLiteral",
-      "offset": 423,
-      "length": 9,
-      "value": "\"SUCCESS\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
-      "kind": "StringLiteral",
-      "offset": 452,
-      "length": 9,
-      "value": "\"PAYLOAD\""
-    },
-    {
-      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/RecommendApi.swift",
-      "kind": "Dictionary",
-      "offset": 678,
-      "length": 36,
-      "value": "[(\"Content-Type\", \"application\/json\")]"
     }
   ]
 }

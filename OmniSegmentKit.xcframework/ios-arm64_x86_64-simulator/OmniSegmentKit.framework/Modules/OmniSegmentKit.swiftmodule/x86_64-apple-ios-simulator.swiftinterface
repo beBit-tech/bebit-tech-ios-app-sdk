@@ -25,49 +25,6 @@ import _SwiftConcurrencyShims
   @objc public func appendAttributes(_ attrs: [Swift.String : Any])
   @objc deinit
 }
-@objc public class OSGRecommendRequest : ObjectiveC.NSObject {
-  @objc public var productIds: [Swift.String]?
-  @objc public var productTags: [Swift.String]?
-  @objc public var productCategories: [Swift.String]?
-  @objc public var excludedProductIds: [Swift.String]?
-  @objc public var excludedProductTags: [Swift.String]?
-  @objc public enum RecommendType : Swift.Int {
-    case userItemEmbedding = 0
-    case alsoBought = 1
-    case alsoViewed = 2
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  @objc public static func stringValue(for type: OmniSegmentKit.OSGRecommendRequest.RecommendType) -> Swift.String
-  @objc public init(_ type: OmniSegmentKit.OSGRecommendRequest.RecommendType, quantity: Swift.Int)
-  @objc public func toURLParameters() -> [Swift.String : Any]
-  @objc deinit
-}
-@objc public class OSGRecommendProduct : ObjectiveC.NSObject, Swift.Codable {
-  @objc final public let id: Swift.String
-  @objc final public let name: Swift.String
-  @objc final public let price: Swift.String
-  @objc final public let urlString: Swift.String
-  @objc final public let imageURLString: Swift.String
-  @objc final public let additionalImages: [OmniSegmentKit.OSGAdditionalImage]
-  @objc final public let specialPrice: Swift.String?
-  required public init(from decoder: any Swift.Decoder) throws
-  @objc public func encode() -> [Swift.String : Any]
-  @objc public init(id: Swift.String, name: Swift.String, price: Swift.String, urlString: Swift.String, imageURLString: Swift.String, additionalImages: [OmniSegmentKit.OSGAdditionalImage], specialPrice: Swift.String?)
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-@objc public class OSGAdditionalImage : ObjectiveC.NSObject, Swift.Codable {
-  @objc final public let name: Swift.String
-  @objc final public let urlString: Swift.String
-  @objc public init(name: Swift.String, urlString: Swift.String)
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
 @_inheritsConvenienceInitializers @available(iOS 13, *)
 @objc public class OmniSegment : ObjectiveC.NSObject {
   @objc(initialize:withTid:) public static func initialize(_ key: Swift.String, tid: Swift.String)
@@ -77,9 +34,6 @@ import _SwiftConcurrencyShims
   @objc public static func setFCMToken(_ token: Swift.String)
   @objc public static func setCurrentPage(_ pageId: Swift.String)
   @objc public static func trackEvent(_ event: OmniSegmentKit.OSGEvent)
-  public static func fetchRecommendProduct(_ request: OmniSegmentKit.OSGRecommendRequest) async -> [OmniSegmentKit.OSGRecommendProduct]
-  public static func fetchRecommendProduct(_ request: OmniSegmentKit.OSGRecommendRequest) -> Combine.Future<[OmniSegmentKit.OSGRecommendProduct], Swift.Never>
-  public static func fetchRecommendProduct(_ request: OmniSegmentKit.OSGRecommendRequest, completion: @escaping ([OmniSegmentKit.OSGRecommendProduct]) -> Swift.Void)
   @objc public static func setBundleId(_ id: Swift.String)
   @objc public static func setAppName(_ name: Swift.String)
   @objc public static func setBundleVersion(_ version: Swift.String)
@@ -95,7 +49,6 @@ import _SwiftConcurrencyShims
 @available(iOS 13, *)
 extension OmniSegmentKit.OmniSegment {
   @objc dynamic public func changeEventApiEndpoint(_ endpoint: Swift.String)
-  @objc dynamic public func changeRecommendApiEndpoint(_ endpoint: Swift.String)
   @objc dynamic public func changeBackgroundServiceURL(_ url: Swift.String)
   @objc dynamic public func changeApiHost(_ host: Swift.String)
 }
@@ -183,9 +136,6 @@ extension OmniSegmentKit.OSGEvent {
 @objc extension WebKit.WKWebViewConfiguration {
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func addOmniSegmentContentController()
 }
-extension OmniSegmentKit.OSGRecommendRequest.RecommendType : Swift.Equatable {}
-extension OmniSegmentKit.OSGRecommendRequest.RecommendType : Swift.Hashable {}
-extension OmniSegmentKit.OSGRecommendRequest.RecommendType : Swift.RawRepresentable {}
 extension OmniSegmentKit.OSGEventSource : Swift.Equatable {}
 extension OmniSegmentKit.OSGEventSource : Swift.Hashable {}
 extension OmniSegmentKit.OSGEventSource : Swift.RawRepresentable {}

@@ -305,16 +305,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class NSString;
-
-SWIFT_CLASS("_TtC14OmniSegmentKit18OSGAdditionalImage")
-@interface OSGAdditionalImage : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull name;
-@property (nonatomic, readonly, copy) NSString * _Nonnull urlString;
-- (nonnull instancetype)initWithName:(NSString * _Nonnull)name urlString:(NSString * _Nonnull)urlString OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 @class OSGProduct;
 @class NSNumber;
 
@@ -376,44 +366,6 @@ SWIFT_CLASS("_TtC14OmniSegmentKit10OSGProduct")
 @end
 
 
-SWIFT_CLASS("_TtC14OmniSegmentKit19OSGRecommendProduct")
-@interface OSGRecommendProduct : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull id;
-@property (nonatomic, readonly, copy) NSString * _Nonnull name;
-@property (nonatomic, readonly, copy) NSString * _Nonnull price;
-@property (nonatomic, readonly, copy) NSString * _Nonnull urlString;
-@property (nonatomic, readonly, copy) NSString * _Nonnull imageURLString;
-@property (nonatomic, readonly, copy) NSArray<OSGAdditionalImage *> * _Nonnull additionalImages;
-@property (nonatomic, readonly, copy) NSString * _Nullable specialPrice;
-- (NSDictionary<NSString *, id> * _Nonnull)encode SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithId:(NSString * _Nonnull)id name:(NSString * _Nonnull)name price:(NSString * _Nonnull)price urlString:(NSString * _Nonnull)urlString imageURLString:(NSString * _Nonnull)imageURLString additionalImages:(NSArray<OSGAdditionalImage *> * _Nonnull)additionalImages specialPrice:(NSString * _Nullable)specialPrice OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-enum RecommendType : NSInteger;
-
-SWIFT_CLASS("_TtC14OmniSegmentKit19OSGRecommendRequest")
-@interface OSGRecommendRequest : NSObject
-@property (nonatomic, copy) NSArray<NSString *> * _Nullable productIds;
-@property (nonatomic, copy) NSArray<NSString *> * _Nullable productTags;
-@property (nonatomic, copy) NSArray<NSString *> * _Nullable productCategories;
-@property (nonatomic, copy) NSArray<NSString *> * _Nullable excludedProductIds;
-@property (nonatomic, copy) NSArray<NSString *> * _Nullable excludedProductTags;
-+ (NSString * _Nonnull)stringValueFor:(enum RecommendType)type SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init:(enum RecommendType)type quantity:(NSInteger)quantity OBJC_DESIGNATED_INITIALIZER;
-- (NSDictionary<NSString *, id> * _Nonnull)toURLParameters SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-typedef SWIFT_ENUM(NSInteger, RecommendType, open) {
-  RecommendTypeUserItemEmbedding = 0,
-  RecommendTypeAlsoBought = 1,
-  RecommendTypeAlsoViewed = 2,
-};
-
-
 SWIFT_CLASS("_TtC14OmniSegmentKit11OmniSegment") SWIFT_AVAILABILITY(ios,introduced=13)
 @interface OmniSegment : NSObject
 + (void)initialize:(NSString * _Nonnull)key withTid:(NSString * _Nonnull)tid;
@@ -439,7 +391,6 @@ SWIFT_CLASS("_TtC14OmniSegmentKit11OmniSegment") SWIFT_AVAILABILITY(ios,introduc
 SWIFT_AVAILABILITY(ios,introduced=13)
 @interface OmniSegment (SWIFT_EXTENSION(OmniSegmentKit))
 - (void)changeEventApiEndpoint:(NSString * _Nonnull)endpoint;
-- (void)changeRecommendApiEndpoint:(NSString * _Nonnull)endpoint;
 - (void)changeBackgroundServiceURL:(NSString * _Nonnull)url;
 - (void)changeApiHost:(NSString * _Nonnull)host;
 @end

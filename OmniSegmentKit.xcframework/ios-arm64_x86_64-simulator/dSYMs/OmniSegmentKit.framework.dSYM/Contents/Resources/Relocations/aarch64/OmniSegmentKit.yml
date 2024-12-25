@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/kallechen/Library/Developer/Xcode/DerivedData/app-popup-ios-sdk-aukfhlzvchsyhufavbngaetchecu/Build/Intermediates.noindex/ArchiveIntermediates/app-popup-ios-sdk/InstallationBuildProductsLocation/Library/Frameworks/OmniSegmentKit.framework/OmniSegmentKit'
+binary-path:     '/Users/ruofan/Library/Developer/Xcode/DerivedData/app-popup-ios-sdk-fgkljxhyqodwcpfibtbbnnvbjiht/Build/Intermediates.noindex/ArchiveIntermediates/app-popup-ios-sdk/InstallationBuildProductsLocation/Library/Frameworks/OmniSegmentKit.framework/OmniSegmentKit'
 relocations:
   - { offset: 0xC7BDE, size: 0x8, addend: 0x0, symName: _OmniSegmentKitVersionString, symObjAddr: 0x0, symBinAddr: 0x107C90, symSize: 0x0 }
   - { offset: 0xC7C13, size: 0x8, addend: 0x0, symName: _OmniSegmentKitVersionNumber, symObjAddr: 0x40, symBinAddr: 0x107CD0, symSize: 0x0 }
@@ -279,7 +279,7 @@ relocations:
   - { offset: 0xCF3C8, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit8OSGEventCACycfc', symObjAddr: 0x43D0, symBinAddr: 0xB420, symSize: 0x2C }
   - { offset: 0xCF421, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit8OSGEventCACycfcTo', symObjAddr: 0x43FC, symBinAddr: 0xB44C, symSize: 0x2C }
   - { offset: 0xCF480, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit8OSGEventCfD', symObjAddr: 0x4428, symBinAddr: 0xB478, symSize: 0x30 }
-  - { offset: 0xCF613, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit16PopupCoordinatorC6sharedACvpZ', symObjAddr: 0x1E300, symBinAddr: 0x15BCD8, symSize: 0x0 }
+  - { offset: 0xCF613, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit16PopupCoordinatorC6sharedACvpZ', symObjAddr: 0x1E2D0, symBinAddr: 0x15BCD8, symSize: 0x0 }
   - { offset: 0xCFAB2, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit16PopupCoordinatorC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0xD04C, symSize: 0x104 }
   - { offset: 0xCFB11, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit16PopupCoordinatorCfETo', symObjAddr: 0x1FC, symBinAddr: 0xD248, symSize: 0x98 }
   - { offset: 0xCFB6C, size: 0x8, addend: 0x0, symName: '_$sypSgs5Error_pSgIeghng_yXlSgSo7NSErrorCSgIeyBhyy_TR', symObjAddr: 0x5EC, symBinAddr: 0xD638, symSize: 0x9C }
@@ -362,13 +362,13 @@ relocations:
   - { offset: 0xD469A, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit6OSGLogV3log33_DEC043E5AD778C049599737944D7CFD1LLyyAA8LogLevelO_SayypGtFZTf4nnd_n', symObjAddr: 0x4D0, symBinAddr: 0x135EC, symSize: 0x644 }
   - { offset: 0xD4BC8, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO6apiKeySSvpZ', symObjAddr: 0x808, symBinAddr: 0x14DD18, symSize: 0x0 }
   - { offset: 0xD4BE2, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO3tidSSvpZ', symObjAddr: 0x818, symBinAddr: 0x14DD28, symSize: 0x0 }
-  - { offset: 0xD4BFC, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO3uidSSSgvpZ', symObjAddr: 0x2FC8, symBinAddr: 0x15BCE0, symSize: 0x0 }
+  - { offset: 0xD4BFC, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO3uidSSSgvpZ', symObjAddr: 0x2FA0, symBinAddr: 0x15BCE0, symSize: 0x0 }
   - { offset: 0xD4C16, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8fcmTokenSSvpZ', symObjAddr: 0x828, symBinAddr: 0x14DD38, symSize: 0x0 }
   - { offset: 0xD4C30, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8deviceIdSSvpZ', symObjAddr: 0x838, symBinAddr: 0x14DD48, symSize: 0x0 }
-  - { offset: 0xD4C4A, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8bundleIdSSvpZ', symObjAddr: 0x2FD8, symBinAddr: 0x15BCF0, symSize: 0x0 }
-  - { offset: 0xD4C64, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO13bundleVersionSSvpZ', symObjAddr: 0x2FE8, symBinAddr: 0x15BD00, symSize: 0x0 }
-  - { offset: 0xD4C7E, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO10bundleNameSSvpZ', symObjAddr: 0x2FF8, symBinAddr: 0x15BD10, symSize: 0x0 }
-  - { offset: 0xD4C98, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8clientIdSSvpZ', symObjAddr: 0x3008, symBinAddr: 0x15BD20, symSize: 0x0 }
+  - { offset: 0xD4C4A, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8bundleIdSSvpZ', symObjAddr: 0x2FB0, symBinAddr: 0x15BCF0, symSize: 0x0 }
+  - { offset: 0xD4C64, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO13bundleVersionSSvpZ', symObjAddr: 0x2FC0, symBinAddr: 0x15BD00, symSize: 0x0 }
+  - { offset: 0xD4C7E, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO10bundleNameSSvpZ', symObjAddr: 0x2FD0, symBinAddr: 0x15BD10, symSize: 0x0 }
+  - { offset: 0xD4C98, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8clientIdSSvpZ', symObjAddr: 0x2FE0, symBinAddr: 0x15BD20, symSize: 0x0 }
   - { offset: 0xD4CA6, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8bundleId_WZ', symObjAddr: 0x0, symBinAddr: 0x13E40, symSize: 0x98 }
   - { offset: 0xD4CCB, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO13bundleVersion_WZ', symObjAddr: 0x98, symBinAddr: 0x13ED8, symSize: 0x164 }
   - { offset: 0xD4D08, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO10bundleName_WZ', symObjAddr: 0x1FC, symBinAddr: 0x1403C, symSize: 0x20 }
@@ -376,7 +376,7 @@ relocations:
   - { offset: 0xD4D5C, size: 0x8, addend: 0x0, symName: '_$s10Foundation4UUIDVSgWOb', symObjAddr: 0x744, symBinAddr: 0x14544, symSize: 0x48 }
   - { offset: 0xD4DC0, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO10bundleNameSSvpZfiSSyXEfU_', symObjAddr: 0x21C, symBinAddr: 0x1405C, symSize: 0x274 }
   - { offset: 0xD4E26, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit10ClientDataO8clientIdSSvpZfiSSyXEfU_', symObjAddr: 0x4B0, symBinAddr: 0x142F0, symSize: 0x254 }
-  - { offset: 0xD4FA6, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit12EventManagerC6sharedACvpZ', symObjAddr: 0x132D0, symBinAddr: 0x15BD30, symSize: 0x0 }
+  - { offset: 0xD4FA6, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit12EventManagerC6sharedACvpZ', symObjAddr: 0x132A0, symBinAddr: 0x15BD30, symSize: 0x0 }
   - { offset: 0xD5242, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit12EventManagerC6shared_WZ', symObjAddr: 0x10, symBinAddr: 0x1458C, symSize: 0x54 }
   - { offset: 0xD5468, size: 0x8, addend: 0x0, symName: '_$sSo10FMDatabaseCIegg_ABIyBy_TR', symObjAddr: 0x2744, symBinAddr: 0x16CC0, symSize: 0x38 }
   - { offset: 0xD5480, size: 0x8, addend: 0x0, symName: '_$s14OmniSegmentKit12EventManagerCMa', symObjAddr: 0x3398, symBinAddr: 0x17914, symSize: 0x20 }
@@ -3846,10 +3846,10 @@ relocations:
   - { offset: 0x166430, size: 0x8, addend: 0x0, symName: '_$s9Alamofire2AFAA7SessionCvg', symObjAddr: 0x48, symBinAddr: 0x35B58, symSize: 0x40 }
   - { offset: 0x166561, size: 0x8, addend: 0x0, symName: '+[FMDatabase databaseWithPath:]', symObjAddr: 0x0, symBinAddr: 0xF8FB8, symSize: 0x48 }
   - { offset: 0x166582, size: 0x8, addend: 0x0, symName: '+[FMDatabase FMDBVersion]', symObjAddr: 0x224, symBinAddr: 0xF91DC, symSize: 0x74 }
-  - { offset: 0x1665AC, size: 0x8, addend: 0x0, symName: _FMDBVersion.once, symObjAddr: 0x18780, symBinAddr: 0x15BC10, symSize: 0x0 }
-  - { offset: 0x1665C2, size: 0x8, addend: 0x0, symName: _FMDBVersion.FMDBVersionVal, symObjAddr: 0x18788, symBinAddr: 0x15BC18, symSize: 0x0 }
+  - { offset: 0x1665AC, size: 0x8, addend: 0x0, symName: _FMDBVersion.once, symObjAddr: 0x18760, symBinAddr: 0x15BC10, symSize: 0x0 }
+  - { offset: 0x1665C2, size: 0x8, addend: 0x0, symName: _FMDBVersion.FMDBVersionVal, symObjAddr: 0x18768, symBinAddr: 0x15BC18, symSize: 0x0 }
   - { offset: 0x166621, size: 0x8, addend: 0x0, symName: '-[FMDatabase inSavePoint:]', symObjAddr: 0x2D14, symBinAddr: 0xFBCCC, symSize: 0x138 }
-  - { offset: 0x16664D, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x18790, symBinAddr: 0x15BC20, symSize: 0x0 }
+  - { offset: 0x16664D, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x18770, symBinAddr: 0x15BC20, symSize: 0x0 }
   - { offset: 0x1669C3, size: 0x8, addend: 0x0, symName: '+[FMDatabase databaseWithPath:]', symObjAddr: 0x0, symBinAddr: 0xF8FB8, symSize: 0x48 }
   - { offset: 0x166A0A, size: 0x8, addend: 0x0, symName: '+[FMDatabase databaseWithURL:]', symObjAddr: 0x48, symBinAddr: 0xF9000, symSize: 0x48 }
   - { offset: 0x166A51, size: 0x8, addend: 0x0, symName: '-[FMDatabase init]', symObjAddr: 0x90, symBinAddr: 0xF9048, symSize: 0x8 }
@@ -4017,7 +4017,7 @@ relocations:
   - { offset: 0x16AF0A, size: 0x8, addend: 0x0, symName: '-[FMDatabase(FMDatabaseAdditions) validateSQL:error:]', symObjAddr: 0x798, symBinAddr: 0xFCCC0, symSize: 0x144 }
   - { offset: 0x16B26F, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithPath:]', symObjAddr: 0x0, symBinAddr: 0xFCE04, symSize: 0x48 }
   - { offset: 0x16B27D, size: 0x8, addend: 0x0, symName: '-[FMDatabasePool inSavePoint:]', symObjAddr: 0xDA0, symBinAddr: 0xFDBA4, symSize: 0x15C }
-  - { offset: 0x16B2A9, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x85A0, symBinAddr: 0x15BC28, symSize: 0x0 }
+  - { offset: 0x16B2A9, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x8588, symBinAddr: 0x15BC28, symSize: 0x0 }
   - { offset: 0x16B489, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithPath:]', symObjAddr: 0x0, symBinAddr: 0xFCE04, symSize: 0x48 }
   - { offset: 0x16B4D0, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithURL:]', symObjAddr: 0x48, symBinAddr: 0xFCE4C, symSize: 0x74 }
   - { offset: 0x16B517, size: 0x8, addend: 0x0, symName: '+[FMDatabasePool databasePoolWithPath:flags:]', symObjAddr: 0xBC, symBinAddr: 0xFCEC0, symSize: 0x58 }
@@ -4071,7 +4071,7 @@ relocations:
   - { offset: 0x16C7F8, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithPath:]', symObjAddr: 0x0, symBinAddr: 0xFDDA4, symSize: 0x48 }
   - { offset: 0x16C812, size: 0x8, addend: 0x0, symName: _kDispatchQueueSpecificKey, symObjAddr: 0x13C8, symBinAddr: 0x141EF0, symSize: 0x0 }
   - { offset: 0x16C83A, size: 0x8, addend: 0x0, symName: '-[FMDatabaseQueue inSavePoint:]', symObjAddr: 0x924, symBinAddr: 0xFE690, symSize: 0xDC }
-  - { offset: 0x16C866, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x8358, symBinAddr: 0x15BC30, symSize: 0x0 }
+  - { offset: 0x16C866, size: 0x8, addend: 0x0, symName: '_inSavePoint:.savePointIdx', symObjAddr: 0x8340, symBinAddr: 0x15BC30, symSize: 0x0 }
   - { offset: 0x16CAAD, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithPath:]', symObjAddr: 0x0, symBinAddr: 0xFDDA4, symSize: 0x48 }
   - { offset: 0x16CB04, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithURL:]', symObjAddr: 0x48, symBinAddr: 0xFDDEC, symSize: 0x54 }
   - { offset: 0x16CB4B, size: 0x8, addend: 0x0, symName: '+[FMDatabaseQueue databaseQueueWithPath:flags:]', symObjAddr: 0x9C, symBinAddr: 0xFDE40, symSize: 0x58 }

@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/app_popup_ios_sdk.h</key>
 		<data>
-		PhJ6F1pEmfn9jTtD96EB9auMi3o=
+		TjVavZn27mPVHGwjJSnRsnXN1o8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zjLETFgaLvowxnH2smqQj4JkCr0=
+		5y8MmwFm37eiFOJsvM2RXIkFuC0=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ktxXAQSsYwp8QYouFopjzq3O7P8=
+		jk7Wv5rUFF4tkrGt4+/0+Sqn7wQ=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RhM1ShNCu5oLaGS/JQIXW5ZD938=
+		hs4b3ESUeC/TA88C3bKNx9tCH8k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,14 +62,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zFsY5HEOfgn0VDLf+1XY97IBx40n+NO510hB0+MoE7Y=
+			JOgG5I6h8JhzJqRBDLdzfh+iunB5YG4TRVhtYYlHwAM=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5kcU9L54JMGsMUSE/7jl7t4/YRW9gWrc/g7R+8jonw=
+			guTKwi8zVGjj8tJL5gX1t0M1FdMfq1hxBHjifh0ijF4=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SwSzmY3PtpXdRu6E3LjdsDR/a7+AIk+TgpxaVrJuRtA=
+			Kx+oU5RU7hjrqnILhQH9Wlnxkt6ZquLivxxj5m5b+8Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

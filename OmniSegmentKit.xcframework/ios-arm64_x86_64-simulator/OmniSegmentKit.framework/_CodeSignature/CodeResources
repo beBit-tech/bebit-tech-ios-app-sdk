@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/app_popup_ios_sdk.h</key>
 		<data>
-		PhJ6F1pEmfn9jTtD96EB9auMi3o=
+		TjVavZn27mPVHGwjJSnRsnXN1o8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VCcW+oNZrTHh2ts50/4k3dcnoqY=
+		TgdQQkSczl6yI60e9kXeKtyAVCw=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ktxXAQSsYwp8QYouFopjzq3O7P8=
+		jk7Wv5rUFF4tkrGt4+/0+Sqn7wQ=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cjNVvpZpKbf6M0PpfDRGlJLnM/k=
+		QcxGjVDRkBNN0h4pGVyVLDXj9cI=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ktxXAQSsYwp8QYouFopjzq3O7P8=
+		jk7Wv5rUFF4tkrGt4+/0+Sqn7wQ=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		95mgZ1AYdDLlh4nmwMmorV2ZtIo=
+		7VcDXlgyuwC83HfN3cWFaiP08Hk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zFsY5HEOfgn0VDLf+1XY97IBx40n+NO510hB0+MoE7Y=
+			JOgG5I6h8JhzJqRBDLdzfh+iunB5YG4TRVhtYYlHwAM=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5kcU9L54JMGsMUSE/7jl7t4/YRW9gWrc/g7R+8jonw=
+			guTKwi8zVGjj8tJL5gX1t0M1FdMfq1hxBHjifh0ijF4=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQ0HajLKG1cam7wvnmhz1zdT/x+cBG7xRNSd67I8PUA=
+			18iagfl9+5vrX79xtMHumuV+wcu+HgjzqEvrS9onvh4=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5kcU9L54JMGsMUSE/7jl7t4/YRW9gWrc/g7R+8jonw=
+			guTKwi8zVGjj8tJL5gX1t0M1FdMfq1hxBHjifh0ijF4=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CZ61oaLDLBTPM3yr5tvNWZ6cLzidSmP2ipbrj7VawaE=
+			5w5Ljm+dxsVhNEr2xFw3HqAGhGxpY3qhdCfnGuqaTDM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

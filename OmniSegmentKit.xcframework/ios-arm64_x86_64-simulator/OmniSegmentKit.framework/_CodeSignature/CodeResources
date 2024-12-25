@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QcxGjVDRkBNN0h4pGVyVLDXj9cI=
+		rUbJZ+6PYKUQrt9JsvqXIqmENJs=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7VcDXlgyuwC83HfN3cWFaiP08Hk=
+		XMLynyX+bAH5FxXPZrl9JT1BdsA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			18iagfl9+5vrX79xtMHumuV+wcu+HgjzqEvrS9onvh4=
+			cIlxqG6hGYfFqO3ZBCP8dLBhY+uBvrav7KyIPhZ9Q80=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5w5Ljm+dxsVhNEr2xFw3HqAGhGxpY3qhdCfnGuqaTDM=
+			yBm7NgKLfJPydNlguwpLoKeJciNLzCHogyRnrnZw4eA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

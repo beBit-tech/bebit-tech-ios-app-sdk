@@ -12,7 +12,7 @@ let package = Package(
 		.library(name: "OmniSegmentKit", targets: ["OmniSegmentTarget"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMinor(from: "5.4.4")),
+		.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMinor(from: "5.8.1")),
 		.package(url: "https://github.com/ccgus/fmdb", .upToNextMinor(from: "2.7.7"))
 	],
 	targets: [

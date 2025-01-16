@@ -12,7 +12,7 @@ let package = Package(
 		.library(name: "OmniSegmentKit", targets: ["OmniSegmentTarget"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMinor(from: "5.4.4")),
+		.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMinor(from: "5.8.1")),
 		.package(url: "https://github.com/ccgus/fmdb", .upToNextMinor(from: "2.7.7"))
 	],
 	targets: [
@@ -26,7 +26,7 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "OmniSegmentKit",
-			url: "https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/1.0.3/OmniSegmentKit.xcframework.zip",
+			url: "https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/1.0.4-beta.0/OmniSegmentKit.xcframework.zip",
 			checksum: "0f99740d7d491d3b2982afc1130a541604c40328cd549b361e26c4355d2ace13"
 		)
 	]

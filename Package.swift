@@ -26,7 +26,7 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "OmniSegmentKit",
-			url: "https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/1.0.4-beta.1/OmniSegmentKit.xcframework.zip",
+			url: "https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/1.0.4/OmniSegmentKit.xcframework.zip",
 			checksum: "99c164447b078d9e99a1af3aff196f6ed5120a1682bce0f0f5f80b75fe065078"
 		)
 	]

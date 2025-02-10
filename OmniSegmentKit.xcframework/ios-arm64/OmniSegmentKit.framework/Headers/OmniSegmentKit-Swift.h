@@ -282,7 +282,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import WebKit;
 #endif
 
 #endif
@@ -365,6 +364,14 @@ SWIFT_CLASS("_TtC14OmniSegmentKit10OSGProduct")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class WKWebViewConfiguration;
+
+SWIFT_CLASS_NAMED("OSGWebViewConfigurationExtension") SWIFT_AVAILABILITY(ios,introduced=13)
+@interface OSGWebViewConfigurationExtension : NSObject
++ (void)addOmniSegmentContentController:(WKWebViewConfiguration * _Nonnull)configuration;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC14OmniSegmentKit11OmniSegment") SWIFT_AVAILABILITY(ios,introduced=13)
 @interface OmniSegment : NSObject
@@ -384,6 +391,7 @@ SWIFT_CLASS("_TtC14OmniSegmentKit11OmniSegment") SWIFT_AVAILABILITY(ios,introduc
 + (void)setWebViewLocation:(NSString * _Nonnull)location;
 + (void)resetWebViewLocation;
 + (void)setPopupRedirectCallback:(void (^ _Nonnull)(NSString * _Nonnull))callback;
++ (void)handleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -395,11 +403,6 @@ SWIFT_AVAILABILITY(ios,introduced=13)
 - (void)changeApiHost:(NSString * _Nonnull)host;
 @end
 
-
-SWIFT_AVAILABILITY(ios,introduced=13)
-@interface WKWebViewConfiguration (SWIFT_EXTENSION(OmniSegmentKit))
-- (void)addOmniSegmentContentController;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)

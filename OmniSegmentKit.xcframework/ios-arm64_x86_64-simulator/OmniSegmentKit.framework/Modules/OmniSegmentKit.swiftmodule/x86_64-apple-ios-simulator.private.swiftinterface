@@ -43,6 +43,7 @@ import _SwiftConcurrencyShims
   @objc public static func setWebViewLocation(_ location: Swift.String)
   @objc public static func resetWebViewLocation()
   @objc public static func setPopupRedirectCallback(_ callback: @escaping (Swift.String) -> Swift.Void)
+  @objc public static func handleNotification(userInfo: [Swift.AnyHashable : Any])
   @objc override dynamic public init()
   @objc deinit
 }
@@ -133,8 +134,14 @@ extension OmniSegmentKit.OSGEvent {
   @objc(customWithAction:value:) public static func custom(action: Swift.String, value: Swift.String? = nil) -> OmniSegmentKit.OSGEvent
 }
 @available(iOS 13, *)
-@objc extension WebKit.WKWebViewConfiguration {
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func addOmniSegmentContentController()
+extension WebKit.WKWebViewConfiguration {
+  @_Concurrency.MainActor @preconcurrency public func addOmniSegmentContentController()
+}
+@_inheritsConvenienceInitializers @available(iOS 13, *)
+@objc(OSGWebViewConfigurationExtension) public class OSGWebViewConfigurationExtension : ObjectiveC.NSObject {
+  @objc public static func addOmniSegmentContentController(_ configuration: WebKit.WKWebViewConfiguration)
+  @objc override dynamic public init()
+  @objc deinit
 }
 extension OmniSegmentKit.OSGEventSource : Swift.Equatable {}
 extension OmniSegmentKit.OSGEventSource : Swift.Hashable {}

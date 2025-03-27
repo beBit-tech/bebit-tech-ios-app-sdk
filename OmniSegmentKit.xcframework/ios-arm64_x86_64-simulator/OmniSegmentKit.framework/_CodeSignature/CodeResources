@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wXczB8FG0i4fWFzxQRhO0kPG7m8=
+		WnX/s9NbVhEE2MlWrA8+SnMbK3k=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RsslKQKGf4YYzTkcKOKaWjwxKZE=
+		hpnWXA//w7T/iqZLNxGO34nceGQ=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wXczB8FG0i4fWFzxQRhO0kPG7m8=
+		WnX/s9NbVhEE2MlWrA8+SnMbK3k=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oZ081oiGXGTFmi39Umfd19xy9mM=
+		TMwajG96Haqy0NPhP4K69WV+JzI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3bZUXcZruDpCUG3SkGavB/DotwSRGFxZorEGD1UGo0=
+			3TIR1jDbIHgvu2k+lHEmLo8RydkXatbBQS1e3TgZDQI=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JzAlBXpFX1K6bBd5A20/xbSvsbL4Vf+Z+rnFhCa9Mm8=
+			z8YB8eClqcjE7ip4fCoGeEpjAvL9mHiHurhNR0W2kww=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3bZUXcZruDpCUG3SkGavB/DotwSRGFxZorEGD1UGo0=
+			3TIR1jDbIHgvu2k+lHEmLo8RydkXatbBQS1e3TgZDQI=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jSp2sJfGbE/uHgBt9lmtoJwIHsgAt4WGYvcjZiawBTw=
+			Y8ZqKSj3D+Nq2QlyYMlMrblTI6/QcDBu8LB3EwBckhU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

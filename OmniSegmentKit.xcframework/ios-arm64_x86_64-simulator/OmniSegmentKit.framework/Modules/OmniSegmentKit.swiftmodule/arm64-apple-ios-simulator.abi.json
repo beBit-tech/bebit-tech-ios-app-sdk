@@ -7078,7 +7078,14 @@
     {
       "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5020,
+      "offset": 3724,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Development\/bebit\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5628,
       "length": 1,
       "value": "0"
     },

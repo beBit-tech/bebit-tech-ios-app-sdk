@@ -7107,20 +7107,20 @@
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/DBStorage.swift",
       "kind": "StringLiteral",
       "offset": 236,
-      "length": 12,
-      "value": "\"db_storage\""
+      "length": 15,
+      "value": "\"db_storage_v2\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/DBStorage.swift",
       "kind": "IntegerLiteral",
-      "offset": 327,
+      "offset": 330,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/DBStorage.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 389,
       "length": 32,
       "value": "\"com.omniSegment.dbStorageQueue\""
     },

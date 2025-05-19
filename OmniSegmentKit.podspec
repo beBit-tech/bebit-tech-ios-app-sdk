@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                   = "OmniSegmentKit"
-  spec.version                = "1.0.8"
+  spec.version                = "1.0.9"
   spec.authors                = "Lewis"
   spec.summary                = "beBit-Tech App Popup SDK."
   spec.homepage               = "https://github.com/beBit-tech/bebit-tech-ios-app-sdk"
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '12.0'
   spec.ios.frameworks         = 'AdSupport', 'WebKit'
 
-  spec.dependency 'Alamofire', '~> 5.8.1'
+  spec.dependency 'Alamofire', '>= 5.8.1', '< 6.0'
   spec.dependency 'FMDB', '~> 2.7'
 
   spec.static_framework = true

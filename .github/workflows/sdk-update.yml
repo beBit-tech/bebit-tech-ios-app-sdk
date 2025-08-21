@@ -1,0 +1,237 @@
+name: bebit-tech-ios-app-sdk Release Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'SDK version to update to (e.g., 1.2.3)'
+        required: true
+        type: string
+      checksum:
+        description: 'Checksum of the XCFramework from app-popup-ios-sdk'
+        required: true
+        type: string
+      xcframework_url:
+        description: 'Download URL for XCFramework from app-popup-ios-sdk'
+        required: true
+        type: string
+      release_notes:
+        description: 'Release notes for this version'
+        required: false
+        type: string
+        default: 'Updated to latest SDK version'
+
+env:
+  COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+
+jobs:
+  update-and-publish:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
+
+    - name: Install CocoaPods
+      run: |
+        gem install cocoapods
+        pod --version
+
+    - name: Download XCFramework from app-popup-ios-sdk
+      run: |
+        echo "Downloading XCFramework from: ${{ inputs.xcframework_url }}"
+        
+        # Remove existing framework
+        rm -rf OmniSegmentKit.xcframework
+        
+        # Download and extract new framework
+        curl -L "${{ inputs.xcframework_url }}" -o framework.zip
+        unzip framework.zip
+        
+        # Verify framework exists
+        if [ ! -d "OmniSegmentKit.xcframework" ]; then
+          echo "Error: XCFramework not found after extraction"
+          ls -la
+          exit 1
+        fi
+        
+        echo "✅ XCFramework downloaded and extracted successfully"
+
+    - name: Update Podspec Version
+      run: |
+        echo "Updating OmniSegmentKit.podspec version to ${{ inputs.version }}"
+        
+        # Update version in podspec
+        sed -i '' "s/spec.version[[:space:]]*=[[:space:]]*\".*\"/spec.version = \"${{ inputs.version }}\"/" OmniSegmentKit.podspec
+        
+        # Update tag in source
+        sed -i '' "s/:tag => spec.version/:tag => \"${{ inputs.version }}\"/" OmniSegmentKit.podspec
+        
+        echo "✅ Podspec updated"
+        
+        # Show changes
+        echo "Updated podspec content:"
+        cat OmniSegmentKit.podspec
+
+    - name: Update Package.swift if exists
+      run: |
+        if [ -f "Package.swift" ]; then
+          echo "Updating Package.swift version and checksum"
+          
+          # Update URL to point to new version
+          sed -i '' "s|url: \"https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/.*/OmniSegmentKit.xcframework.zip\"|url: \"https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/download/${{ inputs.version }}/OmniSegmentKit.xcframework.zip\"|" Package.swift
+          
+          # Update checksum in Package.swift
+          sed -i '' "s/checksum: \".*\"/checksum: \"${{ inputs.checksum }}\"/" Package.swift
+          
+          echo "✅ Package.swift updated"
+          cat Package.swift
+        else
+          echo "Package.swift not found, skipping"
+        fi
+
+    - name: Validate Podspec
+      run: |
+        echo "Validating OmniSegmentKit.podspec..."
+        
+        # Use --allow-warnings to handle common iOS development warnings
+        pod spec lint OmniSegmentKit.podspec --verbose --allow-warnings
+        
+        echo "✅ Podspec validation successful"
+
+    - name: Commit Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add OmniSegmentKit.podspec OmniSegmentKit.xcframework Package.swift
+        git commit -m "Release ${{ inputs.version }}
+
+        - Updated OmniSegmentKit.podspec to version ${{ inputs.version }}
+        - Updated XCFramework from app-popup-ios-sdk
+        - Updated checksum: ${{ inputs.checksum }}
+        
+        🤖 Generated with [Claude Code](https://claude.ai/code)
+        
+        Co-Authored-By: Claude <noreply@anthropic.com>" || echo "No changes to commit"
+
+    - name: Create Tag and Push
+      run: |
+        git tag "${{ inputs.version }}"
+        git push origin main
+        git push origin "${{ inputs.version }}"
+        
+        echo "✅ Tag ${{ inputs.version }} created and pushed"
+
+    - name: Create GitHub Release with XCFramework
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        release_notes="${{ inputs.release_notes }}"
+        if [ -z "$release_notes" ]; then
+          release_notes="Release ${{ inputs.version }}
+
+        ## Changes
+        - Updated to SDK version ${{ inputs.version }}
+        - Updated XCFramework with latest features and fixes
+        - Checksum: ${{ inputs.checksum }}
+        
+        ## Installation
+        ### CocoaPods
+        \`\`\`ruby
+        pod 'OmniSegmentKit', '${{ inputs.version }}'
+        \`\`\`
+        
+        ### Swift Package Manager
+        \`\`\`swift
+        .package(url: \"https://github.com/beBit-tech/bebit-tech-ios-app-sdk.git\", from: \"${{ inputs.version }}\")
+        \`\`\`
+        
+        🤖 Automated release via GitHub Actions"
+        fi
+        
+        # Create XCFramework zip for Swift Package Manager
+        echo "Creating XCFramework.zip for release..."
+        zip -r OmniSegmentKit.xcframework.zip OmniSegmentKit.xcframework
+        
+        # Create the release
+        gh release create "${{ inputs.version }}" \
+          --title "Release ${{ inputs.version }}" \
+          --notes "$release_notes" \
+          --target main
+        
+        # Upload the XCFramework zip as a release asset
+        gh release upload "${{ inputs.version }}" OmniSegmentKit.xcframework.zip
+        
+        echo "✅ GitHub release created with XCFramework asset"
+
+    - name: Publish to CocoaPods
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+      run: |
+        echo "Publishing OmniSegmentKit ${{ inputs.version }} to CocoaPods..."
+        
+        # Verify we have the trunk token
+        if [ -z "$COCOAPODS_TRUNK_TOKEN" ]; then
+          echo "❌ COCOAPODS_TRUNK_TOKEN not set"
+          echo "Please add your CocoaPods trunk token to repository secrets"
+          exit 1
+        fi
+        
+        # Setup trunk token
+        echo "machine trunk.cocoapods.org login [email] password $COCOAPODS_TRUNK_TOKEN" > ~/.netrc
+        chmod 600 ~/.netrc
+        
+        # Publish to CocoaPods
+        pod trunk push OmniSegmentKit.podspec --allow-warnings
+        
+        echo "✅ Successfully published to CocoaPods!"
+
+    - name: Trigger test-ios-app Update
+      env:
+        GITHUB_TOKEN: ${{ secrets.WORKFLOW_TRIGGER_TOKEN }}
+      run: |
+        if [ -z "$GITHUB_TOKEN" ]; then
+          echo "⚠️ WORKFLOW_TRIGGER_TOKEN not set, skipping test-ios-app update"
+          echo "Please manually update test-ios-app to use version ${{ inputs.version }}"
+        else
+          echo "Triggering test-ios-app update workflow..."
+          
+          # Trigger the test-ios-app workflow
+          curl -X POST \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/beBit-tech/test-ios-app/actions/workflows/app-update.yml/dispatches \
+            -d "{\"ref\":\"main\",\"inputs\":{\"version\":\"${{ inputs.version }}\"}}"
+          
+          echo "✅ test-ios-app update triggered"
+        fi
+
+    - name: Deployment Summary
+      run: |
+        echo "🎉 bebit-tech-ios-app-sdk Release ${{ inputs.version }} Complete!"
+        echo ""
+        echo "📦 What was updated:"
+        echo "   • OmniSegmentKit.podspec version: ${{ inputs.version }}"
+        echo "   • XCFramework updated from app-popup-ios-sdk"
+        echo "   • Checksum: ${{ inputs.checksum }}"
+        echo ""
+        echo "🚀 Published to:"
+        echo "   • GitHub Release: https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases/tag/${{ inputs.version }}"
+        echo "   • CocoaPods: https://cocoapods.org/pods/OmniSegmentKit"
+        echo ""
+        echo "📱 Next Steps:"
+        echo "   • test-ios-app will be updated automatically (if GITHUB_PAT_FOR_CROSS_REPO is set)"
+        echo "   • Or manually update test-ios-app to use version ${{ inputs.version }}"
+        echo ""
+        echo "✅ Installation command for developers:"
+        echo "   pod 'OmniSegmentKit', '${{ inputs.version }}'"

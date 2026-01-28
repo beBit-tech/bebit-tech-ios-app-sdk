@@ -1,4 +1,0 @@
-module OmniSegmentTarget {
-    header "/Users/kallechen/Develop/bebit/bebit-tech-ios-app-sdk/.build/arm64-apple-macosx/debug/OmniSegmentTarget.build/OmniSegmentTarget-Swift.h"
-    requires objc
-}

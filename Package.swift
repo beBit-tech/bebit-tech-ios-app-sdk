@@ -11,10 +11,7 @@ let package = Package(
 	products: [
 		.library(name: "OmniSegmentKit", targets: ["OmniSegmentTarget"]),
 	],
-	dependencies: [
-		.package(url: "https://github.com/Alamofire/Alamofire.git", "5.8.1"..<"6.0.0"),
-		.package(url: "https://github.com/ccgus/fmdb", .upToNextMinor(from: "2.7.7"))
-	],
+	dependencies: [],
 	targets: [
 		.target(
 			name: "OmniSegmentTarget",

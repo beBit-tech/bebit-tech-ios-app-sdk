@@ -16,9 +16,7 @@ let package = Package(
 		.target(
 			name: "OmniSegmentTarget",
 			dependencies: [
-				.target(name: "OmniSegmentKit"),
-				.product(name: "Alamofire", package: "Alamofire"),
-				.product(name: "FMDB", package: "FMDB")
+				.target(name: "OmniSegmentKit")
 			]
 		),
 		.binaryTarget(

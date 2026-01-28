@@ -7098,22 +7098,29 @@
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3715,
+      "length": 31,
+      "value": "\"com.omnisegment.sentry.config\""
+    },
+    {
+      "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3724,
+      "offset": 4551,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "StringLiteral",
-      "offset": 5448,
+      "offset": 6412,
       "length": 29,
       "value": "\"com.omnisegment.breadcrumbs\""
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5845,
+      "offset": 6809,
       "length": 1,
       "value": "0"
     },

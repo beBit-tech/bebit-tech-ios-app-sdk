@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OmniSegmentKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OmniSegmentKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AdSupport
 import Alamofire
 import Combine
@@ -55,7 +55,9 @@ extension OmniSegmentKit.OmniSegment {
 }
 public enum OSGEventSource : Swift.String {
   case app, web
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -63,7 +65,9 @@ public enum OSGEventSource : Swift.String {
 }
 public enum OSGEventHitType : Swift.String {
   case pageView, event
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -74,7 +78,9 @@ public enum OSGEventAction : Swift.String {
   case viewContent, purchase, addToWishlist, completeRegistration, clickProduct
   case webPopupImpression, webPopupClick, webPopupInteraction, webPopupClose, webPopupCloseByOverlay
   case appOpen, login, logout, appUnsubscribe
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -83,7 +89,9 @@ public enum OSGEventAction : Swift.String {
 public enum OSGEventCategory : Swift.String {
   case clickFooter, viewContent, ecommerce, completeRegistration
   case sort, filter, clickMenu, search, formFillOut, webPopup
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -114,7 +122,9 @@ public enum OSGEventCategory : Swift.String {
   public init(from data: [Swift.String : Any])
   public func appendAttribute(_ key: Swift.String, value: Any)
   public func appendAttributes(_ attrs: [Swift.String : Any])
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCategory(_ category: OmniSegmentKit.OSGEvent.Category?)
+  #endif
   public func changeHitType(to type: OmniSegmentKit.OSGEvent.HitType)
   @objc deinit
 }
@@ -131,7 +141,9 @@ extension OmniSegmentKit.OSGEvent {
   @objc(refundWithTransactionId:revenue:products:) public static func refund(_ transactionId: Swift.String, revenue: Foundation.NSNumber, products: [OmniSegmentKit.OSGProduct]) -> OmniSegmentKit.OSGEvent
   @objc public static func completeRegistration(label: [Swift.String : Any]) -> OmniSegmentKit.OSGEvent
   @objc public static func search(label: [Swift.String : Any]) -> OmniSegmentKit.OSGEvent
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(customWithAction:value:) public static func custom(action: Swift.String, value: Swift.String? = nil) -> OmniSegmentKit.OSGEvent
+  #endif
 }
 @available(iOS 13, *)
 extension WebKit.WKWebViewConfiguration {

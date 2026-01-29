@@ -3,7 +3,6 @@
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OmniSegmentKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdSupport
-import Alamofire
 import Combine
 import Foundation
 import Swift
@@ -70,10 +69,26 @@ public enum OSGEventHitType : Swift.String {
   }
 }
 public enum OSGEventAction : Swift.String {
-  case addToCart, removeFromCart, checkout, refund, search, formFillOut
-  case viewContent, purchase, addToWishlist, completeRegistration, clickProduct
-  case webPopupImpression, webPopupClick, webPopupInteraction, webPopupClose, webPopupCloseByOverlay
-  case appOpen, login, logout, appUnsubscribe
+  case addToCart
+  case removeFromCart
+  case checkout
+  case refund
+  case search
+  case formFillOut
+  case viewContent
+  case purchase
+  case addToWishlist
+  case completeRegistration
+  case clickProduct
+  case webPopupImpression
+  case webPopupClick
+  case webPopupInteraction
+  case webPopupClose
+  case webPopupCloseByOverlay
+  case appOpen
+  case login
+  case logout
+  case appUnsubscribe
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -81,8 +96,16 @@ public enum OSGEventAction : Swift.String {
   }
 }
 public enum OSGEventCategory : Swift.String {
-  case clickFooter, viewContent, ecommerce, completeRegistration
-  case sort, filter, clickMenu, search, formFillOut, webPopup
+  case clickFooter
+  case viewContent
+  case ecommerce
+  case completeRegistration
+  case sort
+  case filter
+  case clickMenu
+  case search
+  case formFillOut
+  case webPopup
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

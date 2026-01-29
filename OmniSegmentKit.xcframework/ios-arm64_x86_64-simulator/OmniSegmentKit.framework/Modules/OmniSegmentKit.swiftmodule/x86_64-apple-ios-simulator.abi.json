@@ -1052,6 +1052,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OmniSegmentKit"
+      },
+      {
+        "kind": "Import",
         "name": "FMDB",
         "printedName": "FMDB",
         "declKind": "Import",
@@ -6597,20 +6611,13 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "OmniSegmentKit",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OmniSegmentKit"
       },
       {
         "kind": "Import",
@@ -6817,6 +6824,20 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Networking\/URLSessionHTTPClient.swift",
+      "kind": "Array",
+      "offset": 168,
+      "length": 52,
+      "value": "[\"DELETE\", \"GET\", \"HEAD\", \"OPTIONS\", \"PUT\", \"TRACE\"]"
+    },
+    {
+      "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Networking\/URLSessionHTTPClient.swift",
+      "kind": "Array",
+      "offset": 268,
+      "length": 25,
+      "value": "[408, 500, 502, 503, 504]"
+    },
+    {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/OmniSegment.swift",
       "kind": "BooleanLiteral",
       "offset": 687,
@@ -6833,70 +6854,70 @@
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
+      "offset": 1489,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/OSGEvent.swift",
       "kind": "Dictionary",
-      "offset": 1759,
+      "offset": 1927,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 894,
+      "offset": 895,
       "length": 28,
       "value": "\"popupCoordinator.queueLock\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1001,
+      "offset": 1002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "Array",
-      "offset": 1082,
+      "offset": 1083,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1126,
+      "offset": 1127,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1169,
+      "offset": 1170,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/PopupCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1252,
       "length": 1,
       "value": "0"
     },
@@ -7099,42 +7120,42 @@
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "StringLiteral",
-      "offset": 3715,
+      "offset": 3716,
       "length": 31,
       "value": "\"com.omnisegment.sentry.config\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4551,
+      "offset": 4552,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "StringLiteral",
-      "offset": 6412,
+      "offset": 6413,
       "length": 29,
       "value": "\"com.omnisegment.breadcrumbs\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Controllers\/SentryClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6809,
+      "offset": 6810,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 355,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/ruofan\/Documents\/work\/app-popup-ios-sdk\/app-popup-ios-sdk\/Api\/EventApi.swift",
       "kind": "StringLiteral",
-      "offset": 632,
+      "offset": 664,
       "length": 23,
       "value": "\"X-OmniSegment-Api-Key\""
     },

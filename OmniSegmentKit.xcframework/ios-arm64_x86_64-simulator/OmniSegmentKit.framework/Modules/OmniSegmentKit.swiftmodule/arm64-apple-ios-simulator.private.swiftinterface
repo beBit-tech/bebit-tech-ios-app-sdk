@@ -103,7 +103,10 @@ import _SwiftConcurrencyShims
 @available(iOS 13, *)
 extension OmniSegmentKit.OmniSegment {
   @objc dynamic public func changeEventApiEndpoint(_ endpoint: Swift.String)
+  @available(*, deprecated, renamed: "changeAppPopupServiceURL(_:)")
   @objc dynamic public func changeBackgroundServiceURL(_ url: Swift.String)
+  @objc dynamic public func changeAppPopupServiceURL(_ url: Swift.String)
+  @objc dynamic public func changeAppBannerServiceURL(_ url: Swift.String)
   @objc dynamic public func changeApiHost(_ host: Swift.String)
 }
 public enum OSGEventSource : Swift.String {

@@ -510,7 +510,11 @@ SWIFT_CLASS("_TtC14OmniSegmentKit11OmniSegment") SWIFT_AVAILABILITY(ios,introduc
 SWIFT_AVAILABILITY(ios,introduced=13)
 @interface OmniSegment (SWIFT_EXTENSION(OmniSegmentKit))
 - (void)changeEventApiEndpoint:(NSString * _Nonnull)endpoint;
-- (void)changeBackgroundServiceURL:(NSString * _Nonnull)url;
+- (void)changeBackgroundServiceURL:(NSString * _Nonnull)url SWIFT_DEPRECATED_MSG("", "changeAppPopupServiceURL:");
+/// Changes the full Popup script URL without changing the Banner script URL.
+- (void)changeAppPopupServiceURL:(NSString * _Nonnull)url;
+/// Changes the full Banner script URL without changing the Popup script URL.
+- (void)changeAppBannerServiceURL:(NSString * _Nonnull)url;
 - (void)changeApiHost:(NSString * _Nonnull)host;
 @end
 

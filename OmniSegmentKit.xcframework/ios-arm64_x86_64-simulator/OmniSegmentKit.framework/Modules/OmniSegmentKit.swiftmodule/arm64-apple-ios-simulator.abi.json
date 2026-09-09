@@ -3243,9 +3243,69 @@
             "usr": "c:@CM@OmniSegmentKit@objc(cs)OmniSegment(im)changeBackgroundServiceURL:",
             "mangledName": "$s14OmniSegmentKit0aB0C26changeBackgroundServiceURLyySSF",
             "moduleName": "OmniSegmentKit",
+            "deprecated": true,
             "declAttributes": [
               "Dynamic",
-              "ObjC"
+              "ObjC",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeAppPopupServiceURL",
+            "printedName": "changeAppPopupServiceURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OmniSegmentKit@objc(cs)OmniSegment(im)changeAppPopupServiceURL:",
+            "mangledName": "$s14OmniSegmentKit0aB0C24changeAppPopupServiceURLyySSF",
+            "moduleName": "OmniSegmentKit",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeAppBannerServiceURL",
+            "printedName": "changeAppBannerServiceURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OmniSegmentKit@objc(cs)OmniSegment(im)changeAppBannerServiceURL:",
+            "mangledName": "$s14OmniSegmentKit0aB0C25changeAppBannerServiceURLyySSF",
+            "moduleName": "OmniSegmentKit",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -9031,42 +9091,42 @@
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
-      "offset": 140,
+      "offset": 139,
       "length": 46,
       "value": "\"https:\/\/omnitag.omniscientai.com\/appPopup.js\""
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
-      "offset": 216,
+      "offset": 215,
       "length": 47,
       "value": "\"https:\/\/omnitag.omniscientai.com\/appBanner.js\""
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
-      "offset": 288,
+      "offset": 287,
       "length": 56,
       "value": "\"https:\/\/api.omnisegment.com\/api\/v1\/beacon\/track-event\/\""
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
-      "offset": 373,
+      "offset": 372,
       "length": 77,
       "value": "\"https:\/\/analytics.omniscientai.com\/ai-recommendation\/get-ai-recommendation\/\""
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
-      "offset": 462,
+      "offset": 461,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kallechen\/Develop\/bebit\/app\/ios sdk\/app-popup-ios-sdk\/app-popup-ios-sdk\/Models\/GobalVariable.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 479,
       "length": 36,
       "value": "\"https:\/\/analytics.omniscientai.com\""
     },

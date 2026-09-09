@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/OmniSegmentKit-Swift.h</key>
 		<data>
-		ChG96nDkyzF/Ehz72TPAB8uw03o=
+		hD8NOW3NbnQplqW6gEKyi0sCWSs=
 		</data>
 		<key>Headers/app_popup_ios_sdk.h</key>
 		<data>
@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hG3m0M8NXgOOeEgz7qgJfnISy1U=
+		QyZwLY1FeLokK5mq6NOrSX6fXAo=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RpSjvEp+FKF+BNLgOTyGVYa3Kl8=
+		wAkA4oxuHomqd74pqjZuKFt3CS8=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		a9PA2a+wiK0LB/O8Nr4rJgX/Yls=
+		5P/r+1wCOgMXlcKjF3ha4K2DhLA=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RpSjvEp+FKF+BNLgOTyGVYa3Kl8=
+		wAkA4oxuHomqd74pqjZuKFt3CS8=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/ziGLAh4/lCpzbTSiOMzbpVDU9s=
+		kwKRZAiroSdnelI+gqyqhcEMfWY=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hG3m0M8NXgOOeEgz7qgJfnISy1U=
+		QyZwLY1FeLokK5mq6NOrSX6fXAo=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8aAAG5QtLzeQh6a585WC3Lm3JJc=
+		evmVpP6RN3Yux8iAxyzY5Lp8/Lw=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2PTO7GW+SO8FujxuK77bsDdCuMI=
+		JY2cX3N4Ui3/HibQLhJVPdSAzdo=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8aAAG5QtLzeQh6a585WC3Lm3JJc=
+		evmVpP6RN3Yux8iAxyzY5Lp8/Lw=
 		</data>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E0kPvKgBefLydyf/iNWhJ+FddME=
+		PZJLfStWMn5NXQVwT5RQSny9zCk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Exopt8AIMgH+hvm/xLNUxfDMVXq3HuvS65xGqg9YdgI=
+			YZMk9PrHd13jGWySAeIlymptnF1KJa/25Bgqv2WOq9I=
 			</data>
 		</dict>
 		<key>Headers/app_popup_ios_sdk.h</key>
@@ -89,70 +89,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAtSk+DX2Zj49JbjjN2I+KU4dWEzwSmOGLXsNBfmd7Y=
+			3gF5ABYnOqSrHNJGC4dVTxvHeGgiFTP5FZr+HZdW52w=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E4cwVNUDeb5USijpm5VAeN22NeemZagPdLLPOExJS0I=
+			rdwjDsRn/ZTtV0qQkCb4tkTSvAVtU2WKLadhsG6MyEg=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UtwIOcokrTjbZDpLTVTGveELg4sGRKhEMe2xUwR9lFw=
+			XybfpDtvWIs3u0MxXosW+eljTg05INS+CsWE0wED3dU=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E4cwVNUDeb5USijpm5VAeN22NeemZagPdLLPOExJS0I=
+			rdwjDsRn/ZTtV0qQkCb4tkTSvAVtU2WKLadhsG6MyEg=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JxAzQpsVM7joPaOqAp375jNCicL+qh++Qupa6kN5UYs=
+			88kV8cHBEGJgSIhZuswLE0PbP8sE4mCN7CkYEqYeC2s=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAtSk+DX2Zj49JbjjN2I+KU4dWEzwSmOGLXsNBfmd7Y=
+			3gF5ABYnOqSrHNJGC4dVTxvHeGgiFTP5FZr+HZdW52w=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mPryZtBUIlc5IAz/x1XtoSKt/2cTRqiY9anDgyEnkfY=
+			IAePi7BH6sLqC6HIcOESeC3aoPyX+kGIVkV7arYoLYs=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qsc9Yo/nb2Peq0+V9csWdf6AQb8LRO57vtE3K98j2QI=
+			2SqTCaWHVmVYJTBksayPVkUYbsV0acOu+FYp9rfOs94=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mPryZtBUIlc5IAz/x1XtoSKt/2cTRqiY9anDgyEnkfY=
+			IAePi7BH6sLqC6HIcOESeC3aoPyX+kGIVkV7arYoLYs=
 			</data>
 		</dict>
 		<key>Modules/OmniSegmentKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ecMohisxiisCVlwWU/o6b12U4iT2fikJwpG7/a3Ra+Y=
+			03Sk2brahCmghgPNdNZEODnE6Ne9I2axl8hlKIi35aI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

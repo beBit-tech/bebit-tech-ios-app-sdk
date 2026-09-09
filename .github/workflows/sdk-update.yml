@@ -47,14 +47,23 @@ jobs:
         pod --version
 
     - name: Download XCFramework from app-popup-ios-sdk
+      env:
+        SDK_XCFRAMEWORK_URL: ${{ inputs.xcframework_url }}
+        SDK_CHECKSUM: ${{ inputs.checksum }}
       run: |
-        echo "Downloading XCFramework from: ${{ inputs.xcframework_url }}"
+        set -euo pipefail
+        echo "Downloading XCFramework from: $SDK_XCFRAMEWORK_URL"
         
         # Remove existing framework
         rm -rf OmniSegmentKit.xcframework
         
         # Download and extract new framework
-        curl -L "${{ inputs.xcframework_url }}" -o framework.zip
+        curl --fail --location "$SDK_XCFRAMEWORK_URL" -o framework.zip
+        actual_checksum=$(swift package compute-checksum framework.zip)
+        if [ "$actual_checksum" != "$SDK_CHECKSUM" ]; then
+          echo "::error::Downloaded XCFramework checksum does not match the release input"
+          exit 1
+        fi
         unzip framework.zip
         
         # Verify framework exists
@@ -133,6 +142,7 @@ jobs:
         echo "✅ Tag ${{ inputs.version }} created and pushed"
 
     - name: Create GitHub Release with XCFramework
+      id: sdk-release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -159,9 +169,8 @@ jobs:
         🤖 Automated release via GitHub Actions"
         fi
         
-        # Create XCFramework zip for Swift Package Manager
-        echo "Creating XCFramework.zip for release..."
-        zip -r OmniSegmentKit.xcframework.zip OmniSegmentKit.xcframework
+        # Preserve the verified bytes: recompressing changes the SPM checksum.
+        mv framework.zip OmniSegmentKit.xcframework.zip
         
         # Create the release
         gh release create "${{ inputs.version }}" \
@@ -174,7 +183,26 @@ jobs:
         
         echo "✅ GitHub release created with XCFramework asset"
 
+    - name: Trigger test-ios-app Update
+      env:
+        GH_TOKEN: ${{ secrets.WORKFLOW_TRIGGER_TOKEN }}
+        SDK_VERSION: ${{ inputs.version }}
+      run: |
+        set -euo pipefail
+        if [ -z "$GH_TOKEN" ]; then
+          echo "::error::WORKFLOW_TRIGGER_TOKEN is required to dispatch the test app update"
+          exit 1
+        fi
+        # This step runs only after the SPM binary asset is uploaded. CocoaPods
+        # publication is independent and must not block the SPM consumer update.
+        gh workflow run app-update.yml \
+          --repo beBit-tech/test-ios-app \
+          --ref main \
+          -f "version=$SDK_VERSION"
+        echo "SDK update request accepted; follow its PR and checks in test-ios-app."
+
     - name: Publish to CocoaPods
+      if: ${{ !cancelled() && steps.sdk-release.outcome == 'success' }}
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
@@ -196,26 +224,6 @@ jobs:
         
         echo "✅ Successfully published to CocoaPods!"
 
-    - name: Trigger test-ios-app Update
-      env:
-        GITHUB_TOKEN: ${{ secrets.WORKFLOW_TRIGGER_TOKEN }}
-      run: |
-        if [ -z "$GITHUB_TOKEN" ]; then
-          echo "⚠️ WORKFLOW_TRIGGER_TOKEN not set, skipping test-ios-app update"
-          echo "Please manually update test-ios-app to use version ${{ inputs.version }}"
-        else
-          echo "Triggering test-ios-app update workflow..."
-          
-          # Trigger the test-ios-app workflow
-          curl -X POST \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/beBit-tech/test-ios-app/actions/workflows/app-update.yml/dispatches \
-            -d "{\"ref\":\"main\",\"inputs\":{\"version\":\"${{ inputs.version }}\"}}"
-          
-          echo "✅ test-ios-app update triggered"
-        fi
-
     - name: Deployment Summary
       run: |
         echo "🎉 bebit-tech-ios-app-sdk Release ${{ inputs.version }} Complete!"
@@ -230,7 +238,7 @@ jobs:
         echo "   • CocoaPods: https://cocoapods.org/pods/OmniSegmentKit"
         echo ""
         echo "📱 Next Steps:"
-        echo "   • test-ios-app will be updated automatically (if GITHUB_PAT_FOR_CROSS_REPO is set)"
+        echo "   • test-ios-app update PR requested; review and merge it after validation"
         echo "   • Or manually update test-ios-app to use version ${{ inputs.version }}"
         echo ""
         echo "✅ Installation command for developers:"

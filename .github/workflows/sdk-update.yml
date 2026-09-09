@@ -183,24 +183,6 @@ jobs:
         
         echo "✅ GitHub release created with XCFramework asset"
 
-    - name: Trigger test-ios-app Update
-      env:
-        GH_TOKEN: ${{ secrets.WORKFLOW_TRIGGER_TOKEN }}
-        SDK_VERSION: ${{ inputs.version }}
-      run: |
-        set -euo pipefail
-        if [ -z "$GH_TOKEN" ]; then
-          echo "::error::WORKFLOW_TRIGGER_TOKEN is required to dispatch the test app update"
-          exit 1
-        fi
-        # This step runs only after the SPM binary asset is uploaded. CocoaPods
-        # publication is independent and must not block the SPM consumer update.
-        gh workflow run app-update.yml \
-          --repo beBit-tech/test-ios-app \
-          --ref main \
-          -f "version=$SDK_VERSION"
-        echo "SDK update request accepted; follow its PR and checks in test-ios-app."
-
     - name: Publish to CocoaPods
       if: ${{ !cancelled() && steps.sdk-release.outcome == 'success' }}
       env:
@@ -238,8 +220,8 @@ jobs:
         echo "   • CocoaPods: https://cocoapods.org/pods/OmniSegmentKit"
         echo ""
         echo "📱 Next Steps:"
-        echo "   • test-ios-app update PR requested; review and merge it after validation"
-        echo "   • Or manually update test-ios-app to use version ${{ inputs.version }}"
+        echo "   • Local trigger-release.sh will request the test app update after the binary is ready"
+        echo "   • For a web-triggered release, run: bash scripts/notify-test-app.sh ${{ inputs.version }}"
         echo ""
         echo "✅ Installation command for developers:"
         echo "   pod 'OmniSegmentKit', '${{ inputs.version }}'"

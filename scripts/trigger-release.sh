@@ -2,7 +2,9 @@
 # Manual Release Trigger Script for bebit-tech-ios-app-sdk
 # 手動觸發發布流程的腳本
 
-set -e
+set -euo pipefail
+
+SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -107,29 +109,13 @@ fi
 echo -e "${BLUE}🔄 觸發 GitHub Actions workflow...${NC}"
 
 gh workflow run sdk-update.yml \
+    --repo beBit-tech/bebit-tech-ios-app-sdk \
+    --ref main \
     -f version="$VERSION" \
     -f checksum="$CHECKSUM" \
     -f xcframework_url="$XCFRAMEWORK_URL" \
     -f release_notes="$RELEASE_NOTES"
 
-echo -e "${GREEN}✅ Workflow 已觸發！${NC}"
-echo ""
-echo -e "${BLUE}📱 監控進度:${NC}"
-echo "   GitHub Actions: https://github.com/beBit-tech/bebit-tech-ios-app-sdk/actions"
-echo ""
-echo -e "${BLUE}🔍 檢查狀態:${NC}"
-echo "   gh run list --workflow=sdk-update.yml"
-echo ""
-echo -e "${BLUE}📋 完成後檢查:${NC}"
-echo "   • GitHub Release: https://github.com/beBit-tech/bebit-tech-ios-app-sdk/releases"
-echo "   • CocoaPods: https://cocoapods.org/pods/OmniSegmentKit"
-echo "   • Swift Package Manager: https://github.com/beBit-tech/bebit-tech-ios-app-sdk"
-echo ""
-
-# Show recent workflow runs
-echo -e "${BLUE}📊 最近的 Workflow 執行:${NC}"
-gh run list --workflow=sdk-update.yml --limit=3
-
-echo ""
-echo -e "${GREEN}🎉 發布流程已啟動！${NC}"
-echo -e "${BLUE}請等待約 5-10 分鐘完成自動化流程${NC}"
+echo "SDK 發版流程已啟動，等待指定版本的 XCFramework 上傳完成。"
+echo "發版進度：https://github.com/beBit-tech/bebit-tech-ios-app-sdk/actions"
+bash "$SCRIPT_DIR/notify-test-app.sh" "$VERSION"
